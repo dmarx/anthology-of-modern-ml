@@ -55,6 +55,11 @@ Some similar projects worth checking out:
 * GAM - General Additive Models
 * MARS - Multivariate adaptive regression splines
   * 1991 - ["Multivariate Adaptive Regression Splines"](https://projecteuclid.org/journals/annals-of-statistics/volume-19/issue-1/Multivariate-Adaptive-Regression-Splines/10.1214/aos/1176347963.full) - Jerome H. Friedman
+* Decision Trees
+  * 1986 - (ID3) ["Induction of Decision Trees"](https://link.springer.com/content/pdf/10.1007/BF00116251.pdf) - J. R. Quinlan
+  * CART - 
+* KNN
+  * 1967 - ["Nearest Neighbor Pattern Classification"](http://ssg.mit.edu/cal/abs/2000_spring/np_dens/classification/cover67.pdf) - T. M. Cover, P. E. Hart
 
 # Network Graphs / combinatorial optimization
 
@@ -89,6 +94,7 @@ Some similar projects worth checking out:
 * Adam
   * 2014 - ["Adam: A Method for Stochastic Optimization"](https://arxiv.org/abs/1412.6980) - Diederik P. Kingma, Jimmy Ba 
 * reverse-mode autodiff
+  * see backprop
 * gradient clipping
 * learning rate scheduling
 * distributed training
