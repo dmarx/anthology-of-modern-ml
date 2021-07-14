@@ -103,6 +103,7 @@ Some similar projects worth checking out:
 * convolutions (+ pooling)
 * dilated convolutions (Wavenet)
 * LSTM
+  * 1997 - ["LONG SHORT-TERM MEMORY"](https://www.bioinf.jku.at/publications/older/2604.pdf) - Sepp Hochreiter, Jurgen Schmidhuber
 * GRU
 * Residual connections - Resnets + highway networks
 * batchnorm
