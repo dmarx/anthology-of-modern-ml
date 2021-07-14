@@ -51,6 +51,9 @@ Some similar projects worth checking out:
 * naive bayes
 * HMM
 * CRF
+* RBM - Restricted Boltzman Machine
+* GAM - General Additive Models
+* MARS - Multivariate adaptive regression splines
 
 # Network Graphs / combinatorial optimization
 
