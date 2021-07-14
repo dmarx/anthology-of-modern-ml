@@ -45,6 +45,9 @@ Some similar projects worth checking out:
   * 1989 - ["Fast learning in multi-resolution hierarchies"](https://proceedings.neurips.cc/paper/1988/file/82161242827b703e6acf9c726942a1e4-Paper.pdf) - John Moody
   * 2009 - ["Feature Hashing for Large Scale Multitask Learning"](http://alex.smola.org/papers/2009/Weinbergeretal09.pdf) - Kilian Weinberger; Anirban Dasgupta; John Langford; Alex Smola; Josh Attenberg
 * the kernel trick
+* naive bayes
+* HMM
+* CRF
 
 # Network Graphs / combinatorial optimization
 
@@ -163,7 +166,7 @@ Some similar projects worth checking out:
 * manifold hypothesis
 * information bottleneck
 * generalized degrees of freedom
-* AIC
+* AIC / BIC
 * dropout as ensemblification
   * 2017 - ["Analysis of dropout learning regarded as ensemble learning"](https://arxiv.org/pdf/1706.06859.pdf) - Kazuyuki Hara, Daisuke Saitoh, Hayaru Shouno
 * knowledge distillation
@@ -175,6 +178,9 @@ Some similar projects worth checking out:
 * LIME
 * adversarial examples
   * 2014 - ["Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images"](https://arxiv.org/pdf/1412.1897.pdf) - Anh Nguyen, Jason Yosinski, Jeff Clune
+* (AU)ROC Curve / PR curve
+* Cohen's Kappa / meta-analysis
+* PAC learning
 
 # Causal Modeling / experimentation
 
