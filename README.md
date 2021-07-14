@@ -64,6 +64,9 @@ Some similar projects worth checking out:
   * 1984 - (CART) "Classification and Regression Trees" - in lieu of the book, here's a [topic summary from 2011](http://pages.stat.wisc.edu/~loh/treeprogs/guide/wires11.pdf) -  Breiman L, Friedman JH, Olshen RA, Stone CJ 
 * KNN
   * 1967 - ["Nearest Neighbor Pattern Classification"](http://ssg.mit.edu/cal/abs/2000_spring/np_dens/classification/cover67.pdf) - T. M. Cover, P. E. Hart
+* Benford's Law
+  * 1938 - "The Law of Anomalous Numbers" - Frank Benford
+  * 1881 -  "Note on the frequency of use of the different digits in natural numbers" - Simon Newcomb
 
 # Network Graphs / combinatorial optimization
 
