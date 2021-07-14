@@ -235,6 +235,7 @@ Some similar projects worth checking out:
 # Causal Modeling / experimentation
 
 * Double machine learning
+  * 2016 - ["Double/Debiased Machine Learning for Treatment and Causal Parameters"](https://arxiv.org/abs/1608.00060) - Victor Chernozhukov, Denis Chetverikov, Mert Demirer, Esther Duflo, Christian Hansen, Whitney Newey, James Robins
 * Doubly robust inference
 * Pearl's do calculus and graphical modeling
 * Rubin's potential outcomes model
