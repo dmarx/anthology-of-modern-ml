@@ -39,7 +39,8 @@ Some similar projects worth checking out:
 * SMOTE
 * tSNE
 * UMAP
-
+* LSH
+  *  2014 - ["LOCALITY PRESERVING HASHING"](https://faculty.ucmerced.edu/mhyang/papers/icip14_lph.pdf) - Yi-Hsuan Tsai, Ming-Hsuan Yang
 
 # Network Graphs / combinatorial optimization
 
