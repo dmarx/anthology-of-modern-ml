@@ -29,6 +29,8 @@ Some similar projects worth checking out:
 * random forest
   * 2001 - ["Random Forests"](https://link.springer.com/content/pdf/10.1023/A:1010933404324.pdf) - Leo Breiman
 * gradient boosting / Adaboost
+  * 1997 - (AdaBoost) ["A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting"](https://www.sciencedirect.com/science/article/pii/S002200009791504X) - Yoav Freund, Robert E Schapire
+  * 1999 - ["Improved Boosting Algorithms Using Confidence-rated Predictions"](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1999-ML-Improved%20boosting%20algorithms%20using%20confidence-rated%20predictions%20(Schapire%20y%20Singer\).pdf) - Yoav Freund, Robert E Schapire
 * bias-variance tradeoff
 * non-parametric bootstrap
   * 1979 - ["Bootstrap Methods: Another Look at the Jackknife"](https://projecteuclid.org/journals/annals-of-statistics/volume-7/issue-1/Bootstrap-Methods-Another-Look-at-the-Jackknife/10.1214/aos/1176344552.full) - Bradley Effron
