@@ -267,3 +267,13 @@ Some similar projects worth checking out:
 
 * Data Privacy
   * See Netflix Prize 
+* Differential Privacy
+* k-anonymity
+* Dataset bias - gendered words, differential treatment of skin color, race and zipcode in legal applications
+* YOLO author's resignation (blog post + reddit thread)
+* CV techniques used to subjugate minorities in SE Asia and China
+* Ethical issues surrounding classification of behavioral health and interventions
+* Metadata deanonymization and leaks of US domestic data collection programs with corporate participation
+* "fairness" algorithms
+* gerrymandering and algorithmic redistricting
+* Facebook's influence on elections and live-testing to influence people's emotions and behaviors w/o consent
