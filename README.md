@@ -58,6 +58,8 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * Adam
 * Adagrad
 * reverse-mode autodiff
+* gradient clipping
+* learning rate scheduling
 
 # Neural activations
 
@@ -110,7 +112,7 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * style transfer, content-texture decomposition, weight covariance transfer
 * cyclegan/discogan
 
-# Learning theory / Deep learning theory
+# Learning theory / Deep learning theory / model compression
 
 * gradient double descent
   * 2019 - ["Deep Double Descent: Where Bigger Models and More Data Hurt"](https://arxiv.org/abs/1912.02292) - Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, Ilya Sutskever
@@ -122,3 +124,5 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * generalized degrees of freedom
 * AIC
 * dropout as ensemblification
+* hinton's dark knowledge
+* model quantization
