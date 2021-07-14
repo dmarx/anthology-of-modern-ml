@@ -157,6 +157,8 @@ Some similar projects worth checking out:
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
+* VC Dimension
+  * 1971 - ["On the uniform convergence of relative frequencies of events to their probabilities"](https://courses.engr.illinois.edu/ece544na/fa2014/vapnik71.pdf) - V. Vapnik and A. Chervonenkis
 * gradient double descent
   * 2019 - ["Deep Double Descent: Where Bigger Models and More Data Hurt"](https://arxiv.org/abs/1912.02292) - Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, Ilya Sutskever
 * neural tangent kernel
@@ -181,6 +183,7 @@ Some similar projects worth checking out:
 * (AU)ROC Curve / PR curve
 * Cohen's Kappa / meta-analysis
 * PAC learning
+
 
 # Causal Modeling / experimentation
 
