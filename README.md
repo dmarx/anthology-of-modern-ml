@@ -53,9 +53,10 @@ A curated collection of significant/impactful articles to be treated as a textbo
 # Neural optimizers
 
 * perceptron algorithm
-* SGD
+* SGD / backprop
 * Adam
 * Adagrad
+* reverse-mode autodiff
 
 # Neural activations
 
