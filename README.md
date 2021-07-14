@@ -107,6 +107,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * U-net
 * siamese network
 * student-teacher transfer learning, catastrophic forgetting
+  * see also knowledge distillation below
 * GAN, DCGAN, WGAN
 * Neural ODE
 * Neural PDE
@@ -116,6 +117,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * inception
 * style transfer, content-texture decomposition, weight covariance transfer
 * cyclegan/discogan
+* autoencoders
+* VAE
+* Amortized VAE
 
 # Learning theory / Deep learning theory / model compression
 
