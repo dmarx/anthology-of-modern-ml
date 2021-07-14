@@ -201,6 +201,7 @@ Some similar projects worth checking out:
 * manifold hypothesis
 * information bottleneck
 * generalized degrees of freedom
+  * 1998 - "On Measuring and Correcting the Effects of Data Mining and Model Selection" - Jianming Ye
 * AIC / BIC
 * dropout as ensemblification
   * 2017 - ["Analysis of dropout learning regarded as ensemble learning"](https://arxiv.org/pdf/1706.06859.pdf) - Kazuyuki Hara, Daisuke Saitoh, Hayaru Shouno
