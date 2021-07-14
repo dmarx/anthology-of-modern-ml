@@ -60,8 +60,10 @@ EDIT: Unsurprisingly, others have already done similar stuff. E.g.: https://gith
 * perceptron algorithm
 * SGD / backprop
   * 1986 - ["Learning representations by back-propagating errors"](http://www.cs.utoronto.ca/~hinton/absps/naturebp.pdf) - David Rumelhart, Geoffrey Hinton, Ronald Williams
+* Adagrad / RMSProp
+  * Probably discussed sufficiently in the Adam paper
 * Adam
-* Adagrad
+  * 2014 - ["Adam: A Method for Stochastic Optimization"](https://arxiv.org/abs/1412.6980) - Diederik P. Kingma, Jimmy Ba 
 * reverse-mode autodiff
 * gradient clipping
 * learning rate scheduling
