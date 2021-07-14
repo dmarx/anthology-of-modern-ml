@@ -126,6 +126,7 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * generalized degrees of freedom
 * AIC
 * dropout as ensemblification
+  * 2017 - ["Analysis of dropout learning regarded as ensemble learning"](https://arxiv.org/pdf/1706.06859.pdf) - Kazuyuki Hara, Daisuke Saitoh, Hayaru Shouno
 * hinton's dark knowledge
 * model quantization
 * SGD = MAP inference
