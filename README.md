@@ -102,6 +102,9 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * GAN, DCGAN, WGAN
 * Neural ODE
 * Neural PDE
+* VGG16
+* GLoVe
+* GLUE task
 
 # Learning theory / Deep learning theory
 
