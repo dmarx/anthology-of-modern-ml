@@ -67,6 +67,7 @@ Some similar projects worth checking out:
 * Benford's Law
   * 1938 - "The Law of Anomalous Numbers" - Frank Benford
   * 1881 -  "Note on the frequency of use of the different digits in natural numbers" - Simon Newcomb
+* Guassian KDE
 
 # Network Graphs / combinatorial optimization
 
