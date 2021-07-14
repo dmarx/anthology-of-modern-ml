@@ -221,6 +221,8 @@ Some similar projects worth checking out:
 * L1/L2 regularization expressable as bayesian priors
   * 1943 - "On the stability of inverse problems" - L2 regularization introduced by Tikhonov, original paper in Russian
 * Hilbert spaces
+* No Free Lunch
+  * 1997 - ["No Free Lunch Theorems for Optimization"](https://ti.arc.nasa.gov/m/profile/dhw/papers/78.pdf) - David H. Wolpert, William G. Macready
 
 
 # Information theory? 
