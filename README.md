@@ -10,7 +10,10 @@ I plan to have it organized a couple of ways:
 
 This multiple-organization idea might be more amenable to a wiki structure, in which case I could even add paper summaries and abridged versions.
 
-EDIT: Unsurprisingly, others have already done similar stuff. E.g.: https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap . 
+Some similar projects worth checking out: 
+
+* https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap
+* https://github.com/terryum/awesome-deep-learning-papers
 
 # "Classic" ML
 
