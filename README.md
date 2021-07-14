@@ -1,5 +1,10 @@
-# anthology-of-modern-ml
-Collection of important articles to be treated as a textbook
+# Anthology of Modern Machine Learning
+
+A collection of important articles to be treated as a textbook. Plan to have it organized a couple of ways: 
+
+* broad-brush topics (textbook-ish sections)
+* publication date
+* parent-child research developments (co-citations?)
 
 
 # "Classic" ML
