@@ -108,7 +108,7 @@ Some similar projects worth checking out:
 # Hyperparameter tuning
 
 * random search > grid search
-  * ["Random Search for Hyper-Parameter Optimization"](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a) - James Bergstra, Yoshua Bengio
+  * 2012 - ["Random Search for Hyper-Parameter Optimization"](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a) - James Bergstra, Yoshua Bengio
 * bayesian / gaussian process (explore/exploit)
 * Population based training
 
