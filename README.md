@@ -121,6 +121,14 @@ EDIT: Unsurprisingly, others have already done similar stuff. E.g.: https://gith
 * autoencoders
 * VAE
 * Amortized VAE
+* YOLO
+* GPT-2
+* ULM
+* seq2seq
+* pix2pix
+* fasttext
+* wordpiece tokenization
+  * 2016 - ["Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation"](https://arxiv.org/abs/1609.08144v2) - Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, Łukasz Kaiser, Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Greg Corrado, Macduff Hughes, Jeffrey Dean
 
 # Learning theory / Deep learning theory / model compression
 
