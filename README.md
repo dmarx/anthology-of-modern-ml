@@ -25,6 +25,7 @@ Some similar projects worth checking out:
 * gradient boosting / Adaboost
 * bias-variance tradeoff
 * non-parametric bootstrap
+  * 1979 - ["Bootstrap Methods: Another Look at the Jackknife"](https://projecteuclid.org/journals/annals-of-statistics/volume-7/issue-1/Bootstrap-Methods-Another-Look-at-the-Jackknife/10.1214/aos/1176344552.full) - Bradley Effron
 * permutation testing (target shuffle)
 * PCA
 * ICA
