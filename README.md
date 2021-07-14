@@ -41,6 +41,8 @@ Some similar projects worth checking out:
 * UMAP
 * LSH
   *  2014 - ["LOCALITY PRESERVING HASHING"](https://faculty.ucmerced.edu/mhyang/papers/icip14_lph.pdf) - Yi-Hsuan Tsai, Ming-Hsuan Yang
+* The hashing trick (NLP)
+* the kernel trick
 
 # Network Graphs / combinatorial optimization
 
