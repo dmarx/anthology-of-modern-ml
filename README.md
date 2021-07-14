@@ -78,6 +78,7 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * attention
 * self-attention -> transformers
   * 2017 - ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) - Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin
+* dropout
 
 # RL
 
@@ -98,13 +99,16 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * word2vec
 * U-net
 * siamese network
-* student-teacher transfer learning
+* student-teacher transfer learning, catastrophic forgetting
 * GAN, DCGAN, WGAN
 * Neural ODE
 * Neural PDE
 * VGG16
 * GLoVe
 * GLUE task
+* inception
+* style transfer, content-texture decomposition, weight covariance transfer
+* cyclegan/discogan
 
 # Learning theory / Deep learning theory
 
@@ -115,3 +119,5 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * manifold hypothesis
 * information bottleneck
 * generalized degrees of freedom
+* AIC
+* dropout as ensemblification
