@@ -14,6 +14,7 @@ Some similar projects worth checking out:
 
 * https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap
 * https://github.com/terryum/awesome-deep-learning-papers
+* https://en.wikipedia.org/wiki/List_of_important_publications_in_computer_science#Machine_learning
 
 # "Classic" ML
 
