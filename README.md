@@ -119,6 +119,7 @@ Some similar projects worth checking out:
 * word2vec
 * U-net
 * siamese network
+  * 2015 - ["Siamese Neural Networks for One-Shot Image Recognition"](http://www.cs.utoronto.ca/~gkoch/files/msc-thesis.pdf) - Gregory Koch
 * student-teacher transfer learning, catastrophic forgetting
   * see also knowledge distillation below
 * GAN, DCGAN, WGAN
