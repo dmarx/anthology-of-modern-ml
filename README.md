@@ -57,7 +57,7 @@ Some similar projects worth checking out:
   * 1991 - ["Multivariate Adaptive Regression Splines"](https://projecteuclid.org/journals/annals-of-statistics/volume-19/issue-1/Multivariate-Adaptive-Regression-Splines/10.1214/aos/1176347963.full) - Jerome H. Friedman
 * Decision Trees
   * 1986 - (ID3) ["Induction of Decision Trees"](https://link.springer.com/content/pdf/10.1007/BF00116251.pdf) - J. R. Quinlan
-  * CART - 
+  * 1984 - (CART) "Classification and Regression Trees" - in lieu of the book, here's a [topic summary from 2011](http://pages.stat.wisc.edu/~loh/treeprogs/guide/wires11.pdf) -  Breiman L, Friedman JH, Olshen RA, Stone CJ 
 * KNN
   * 1967 - ["Nearest Neighbor Pattern Classification"](http://ssg.mit.edu/cal/abs/2000_spring/np_dens/classification/cover67.pdf) - T. M. Cover, P. E. Hart
 
