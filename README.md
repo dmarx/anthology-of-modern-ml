@@ -101,6 +101,7 @@ Some similar projects worth checking out:
 
 * multi-armed bandit
 * Q learning
+  * 1989 - ["Learning from Delayed Rewards"](http://www.cs.rhul.ac.uk/~chrisw/new_thesis.pdf) - Christopher Watkins
 
 # Hyperparameter tuning
 
