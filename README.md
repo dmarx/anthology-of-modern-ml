@@ -60,6 +60,7 @@ Some similar projects worth checking out:
 * Exponential random graphs
 * louvain community detection
 * pagerank
+  * 1998 - ["The PageRank Citation Ranking: Bringing Order to the Web"](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf) - Larry Page
 * knapsack problem
 * smallworld
 * scale free
