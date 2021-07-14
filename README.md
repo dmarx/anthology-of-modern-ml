@@ -13,7 +13,7 @@ A collection of important articles to be treated as a textbook. Plan to have it 
   * 1996 - ["Regression Shrinkage and Selection via the Lasso"](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf) - Robert Tibshirani
   * 2005 - ["Regularization and variable selection via the elastic net"](https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf) - Hui Zou, Trevor Hastie
 * random forest
-* gradient boosting
+* gradient boosting / Adaboost
 * bias-variance tradeoff
 * non-parametric bootstrap
 * permutation testing (target shuffle)
