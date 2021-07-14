@@ -191,6 +191,7 @@ Some similar projects worth checking out:
   * 2007 - ["The BellKor solution to the Netflix Prize"](https://www.netflixprize.com/assets/ProgressPrize2007_KorBell.pdf) - Robert M. Bell, Yehuda Koren, Chris Volinsky
   * 2008 - ["The BellKor 2008 Solution to the Netflix Prize"](https://www.netflixprize.com/assets/ProgressPrize2008_BellKor.pdf) - Robert M. Bell, Yehuda Koren, Chris Volinsky
   * 2008 - ["The BigChaos Solution to the Netflix Prize 2008"](https://www.netflixprize.com/assets/ProgressPrize2008_BigChaos.pdf) - Andreas Toscher, Michael Jahrer
+  * 2006 - ["How To Break Anonymity of the Netflix Prize Dataset"](https://arxiv.org/abs/cs/0610105) - Arvind Narayanan, Vitaly Shmatikov
 * Kaggle Galaxy Zoo
 
 # Learning theory / Deep learning theory / model compression / interpretability
@@ -261,3 +262,8 @@ Some similar projects worth checking out:
   * 1991 - ["Recurrent Networks and NARMA Modeling"](https://proceedings.neurips.cc/paper/1991/file/5ef0b4eba35ab2d6180b0bca7e46b6f9-Paper.pdf) - J. Connor, L. Atlas, R. Martin
   * 2017 - ["A Multi-Horizon Quantile Recurrent Forecaster"](https://arxiv.org/pdf/1711.11053.pdf) - (Amazon) Ruofeng Wen, Kari Torkkola, Balakrishnan Narayanaswamy, Dhruv Madeka
 * FB Prophet / bayesian
+
+# Ethics in ML
+
+* Data Privacy
+  * See Netflix Prize 
