@@ -184,6 +184,7 @@ Some similar projects worth checking out:
 * (AU)ROC Curve / PR curve
 * Cohen's Kappa / meta-analysis
 * PAC learning
+  * 1984 - ["A Theory of the Learnable"](http://web.mit.edu/6.435/www/Valiant84.pdf) - L. G. Valiant
 
 
 # Causal Modeling / experimentation
