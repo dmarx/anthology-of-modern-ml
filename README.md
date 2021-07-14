@@ -1,10 +1,14 @@
 # Anthology of Modern Machine Learning
 
-A curated collection of significant/impactful articles to be treated as a textbook. Plan to have it organized a couple of ways: 
+A curated collection of significant/impactful articles to be treated as a textbook, because sometimes it's just best to go straight to the source. 
+
+I plan to have it organized a couple of ways: 
 
 * broad-brush topics (textbook-ish sections)
 * publication date
 * parent-child research developments (co-citations?)
+
+This multiple-organization idea might be more amenable to a wiki structure, in which case I could even add paper summaries and abridged versions.
 
 
 # "Classic" ML
