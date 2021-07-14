@@ -22,6 +22,8 @@ Some similar projects worth checking out:
 * Lasso/elasticnet
   * 1996 - ["Regression Shrinkage and Selection via the Lasso"](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf) - Robert Tibshirani
   * 2005 - ["Regularization and variable selection via the elastic net"](https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf) - Hui Zou, Trevor Hastie
+* Boosting
+  * 1990 - ["The Strength of Weak Learnability"](http://rob.schapire.net/papers/strengthofweak.pdf) - Robert E. Schapire
 * Bagging
   * 1991 - ["Bagging Predictors"](https://www.stat.berkeley.edu/~breiman/bagging.pdf) - Leo Breiman
 * random forest
