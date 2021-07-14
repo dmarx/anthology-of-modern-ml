@@ -10,6 +10,7 @@ A collection of important articles to be treated as a textbook. Plan to have it 
 # "Classic" ML
 
 * Lasso/elasticnet
+  * 1996 - ["Regression Shrinkage and Selection via the Lasso"](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf) - Robert Tibshirani
 * random forest
 * gradient boosting
 * bias-variance tradeoff
