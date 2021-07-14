@@ -114,7 +114,8 @@ A curated collection of significant/impactful articles to be treated as a textbo
 
 * gradient double descent
   * 2019 - ["Deep Double Descent: Where Bigger Models and More Data Hurt"](https://arxiv.org/abs/1912.02292) - Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, Ilya Sutskever
-* neural tangent kernels
+* neural tangent kernel
+  * 2018 - ["Neural Tangent Kernel: Convergence and Generalization in Neural Networks"](https://arxiv.org/abs/1806.07572) - Arthur Jacot, Franck Gabriel, Clément Hongler
 * lottery ticket hypothesis
 * manifold hypothesis
 * information bottleneck
