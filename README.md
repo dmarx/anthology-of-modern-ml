@@ -81,6 +81,7 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * self-attention -> transformers
   * 2017 - ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) - Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin
 * dropout
+  * 2014 - ["Dropout: A Simple Way to Prevent Neural Networks from Overfitting"](https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf) - Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov
 
 # RL
 
@@ -127,3 +128,4 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * dropout as ensemblification
 * hinton's dark knowledge
 * model quantization
+* SGD = MAP inference
