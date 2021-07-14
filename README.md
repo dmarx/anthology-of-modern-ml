@@ -119,6 +119,7 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * neural tangent kernel
   * 2018 - ["Neural Tangent Kernel: Convergence and Generalization in Neural Networks"](https://arxiv.org/abs/1806.07572) - Arthur Jacot, Franck Gabriel, Clément Hongler
 * lottery ticket hypothesis
+  * 2018 - ["The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"](https://arxiv.org/abs/1803.03635) - Jonathan Frankle, Michael Carbin
 * manifold hypothesis
 * information bottleneck
 * generalized degrees of freedom
