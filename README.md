@@ -158,3 +158,10 @@ Some similar projects worth checking out:
   * 2015 - ["Distilling the Knowledge in a Neural Network"](https://arxiv.org/pdf/1503.02531.pdf) - Geoffrey Hinton, Oriol Vinyals, Jeff Dean
 * model quantization
 * SGD = MAP inference
+
+# Causal Modeling
+
+* Double machine learning
+* Doubly robust inference
+* Pearl's do calculus and graphical modeling
+* Rubin's potential outcomes model
