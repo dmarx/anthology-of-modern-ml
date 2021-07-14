@@ -71,6 +71,8 @@ Some similar projects worth checking out:
 * L-BFGS
 * simulated annealing
 * FFT
+* Constraint Programming / queing theory / OR
+  * Uh... here there be dragons. Maybe just leave some breadcrumbs here?
 
 # Neural optimizers
 
