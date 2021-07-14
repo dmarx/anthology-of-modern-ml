@@ -54,6 +54,7 @@ Some similar projects worth checking out:
 * RBM - Restricted Boltzman Machine
 * GAM - General Additive Models
 * MARS - Multivariate adaptive regression splines
+  * 1991 - ["Multivariate Adaptive Regression Splines"](https://projecteuclid.org/journals/annals-of-statistics/volume-19/issue-1/Multivariate-Adaptive-Regression-Splines/10.1214/aos/1176347963.full) - Jerome H. Friedman
 
 # Network Graphs / combinatorial optimization
 
