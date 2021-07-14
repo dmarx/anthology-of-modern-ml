@@ -218,6 +218,8 @@ Some similar projects worth checking out:
 * PAC learning
   * 1984 - ["A Theory of the Learnable"](http://web.mit.edu/6.435/www/Valiant84.pdf) - L. G. Valiant
 * L1/L2 regularization expressable as bayesian priors
+  * 1943 - "On the stability of inverse problems" - L2 regularization introduced by Tikhonov, original paper in Russian
+* Hilbert spaces
 
 
 # Information theory? 
