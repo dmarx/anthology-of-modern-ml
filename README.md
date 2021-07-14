@@ -77,6 +77,7 @@ A curated collection of significant/impactful articles to be treated as a textbo
 * batchnorm
 * attention
 * self-attention -> transformers
+  * 2017 - ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) - Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin
 
 # RL
 
