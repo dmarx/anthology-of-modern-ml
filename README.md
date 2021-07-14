@@ -53,11 +53,12 @@ Some similar projects worth checking out:
 * scale free
 * "Networks of Love"
 
-# Misc optimization
+# Misc optimization and numerical methods
 
 * Newton-raphson
 * L-BFGS
 * simulated annealing
+* FFT
 
 # Neural optimizers
 
@@ -71,6 +72,8 @@ Some similar projects worth checking out:
 * reverse-mode autodiff
 * gradient clipping
 * learning rate scheduling
+* distributed training
+* federated learning
 
 # Neural activations
 
@@ -159,9 +162,23 @@ Some similar projects worth checking out:
 * model quantization
 * SGD = MAP inference
 
-# Causal Modeling
+# Causal Modeling / experimentation
 
 * Double machine learning
 * Doubly robust inference
 * Pearl's do calculus and graphical modeling
 * Rubin's potential outcomes model
+* model identification
+* d-separation
+* propensity scoring/matching
+* item-response model and adaptive testing
+* bandit learning for on-line experimentation
+
+# Time series forecasting
+
+* ARMA / ARIMA / ARIMAX
+* sin/cos cyclical day encodings
+* RNN forecasting
+  * 1991 - ["Recurrent Networks and NARMA Modeling"](https://proceedings.neurips.cc/paper/1991/file/5ef0b4eba35ab2d6180b0bca7e46b6f9-Paper.pdf) - J. Connor, L. Atlas, R. Martin
+  * 2017 - ["A Multi-Horizon Quantile Recurrent Forecaster"](https://arxiv.org/pdf/1711.11053.pdf) - (Amazon) Ruofeng Wen, Kari Torkkola, Balakrishnan Narayanaswamy, Dhruv Madeka
+* FB Prophet / bayesian
