@@ -54,6 +54,7 @@ A curated collection of significant/impactful articles to be treated as a textbo
 
 * perceptron algorithm
 * SGD / backprop
+  * 1986 - ["Learning representations by back-propagating errors"](http://www.cs.utoronto.ca/~hinton/absps/naturebp.pdf) - David Rumelhart, Geoffrey Hinton, Ronald Williams
 * Adam
 * Adagrad
 * reverse-mode autodiff
