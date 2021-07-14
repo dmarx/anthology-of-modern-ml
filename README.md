@@ -186,6 +186,7 @@ Some similar projects worth checking out:
   * 2015 - ["Distilling the Knowledge in a Neural Network"](https://arxiv.org/pdf/1503.02531.pdf) - Geoffrey Hinton, Oriol Vinyals, Jeff Dean
 * model quantization
 * SGD = MAP inference
+  * 2017 - ["Stochastic Gradient Descent as Approximate Bayesian Inference"](https://arxiv.org/pdf/1704.04289.pdf) - Stephan Mandt, Matthew D. Hoffman, David M. Blei
 * shapley scoring
 * LIME
 * adversarial examples
