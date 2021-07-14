@@ -84,6 +84,7 @@ Some similar projects worth checking out:
 * smallworld
 * scale free
 * "Networks of Love"
+* Genetic algorithms
 
 # Misc optimization and numerical methods
 
