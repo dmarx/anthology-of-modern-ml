@@ -76,6 +76,7 @@ Some similar projects worth checking out:
 * Graph anomaly detection (enron)
 * Exponential random graphs
 * louvain community detection
+  * 2008 - ["Fast unfolding of communities in large networks"](https://arxiv.org/abs/0803.0476) - Vincent D. Blondel, Jean-Loup Guillaume, Renaud Lambiotte, Etienne Lefebvre
 * pagerank
   * 1998 - ["The PageRank Citation Ranking: Bringing Order to the Web"](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf) - Larry Page
 * knapsack problem
