@@ -304,7 +304,8 @@ Lots of interesting references here on error surface geometry, not sure if the p
 * understanding softmax and its relation to log-sum-exp
   * 2017 - ["On the Properties of the Softmax Function with Application in Game Theory and Reinforcement Learning"](https://arxiv.org/pdf/1704.00805.pdf) - Bolin Gao, Lacra Pavel
 * Word2vec approximates a matrix factorization
-
+  * 2014 - ["Neural Word Embedding as Implicit Matrix Factorization"](https://papers.nips.cc/paper/2014/file/feab05aa91085b7a8012516bc3533958-Paper.pdf) - Omer Levy, Yoav Goldberg
+  
 # Information theory
 
 * Entropy
