@@ -51,7 +51,8 @@ Lots of interesting references here on error surface geometry, not sure if the p
 * PCA
   * 1991 - ["Face Recognition Using Eigenfaces"](https://www.cin.ufpe.br/~rps/Artigos/Face%20Recognition%20Using%20Eigenfaces.pdf) - Matthew Turk, Alex Pentland
 * ICA
-* LSI
+* LSI/LSA
+  * 1988 - ["Indexing by Latent Semantic Analysis"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.1152&rep=rep1&type=pdf) - Scott Deerwester, Susan T. Dumais, George W. Furnas, Thomas K. Landauer, Richard Harshman
 * LDA
   * 2003 - ["Latent Dirichlet Allocation"](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf) - David M. Blei, Andrew Ng, Michael I. Jordan
 * SVM
@@ -301,7 +302,8 @@ Lots of interesting references here on error surface geometry, not sure if the p
 * Relationship between logistic regression and naive bayes
   * 2002 - ["On Discriminative vs. Generative classifiers: A comparison of logistic regression and naive Bayes](https://proceedings.neurips.cc/paper/2001/file/7b7a53e239400a13bd6be6c91c4f6c4e-Paper.pdf) - Andrew Ng, Michael Jordan
 * understanding softmax and its relation to log-sum-exp
-  * ["On the Properties of the Softmax Function with Application in Game Theory and Reinforcement Learning"](https://arxiv.org/pdf/1704.00805.pdf) - 
+  * 2017 - ["On the Properties of the Softmax Function with Application in Game Theory and Reinforcement Learning"](https://arxiv.org/pdf/1704.00805.pdf) - Bolin Gao, Lacra Pavel
+* Word2vec approximates a matrix factorization
 
 # Information theory
 
