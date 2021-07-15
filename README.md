@@ -160,6 +160,7 @@ Some similar projects worth checking out:
 * alexnet
 * BERT
 * word2vec
+  * 2013 - ["Distributed Representations of Words and Phrases and their Compositionality"](https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) - Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, Jeffrey Dean
 * U-net
 * siamese network
   * 2015 - ["Siamese Neural Networks for One-Shot Image Recognition"](http://www.cs.utoronto.ca/~gkoch/files/msc-thesis.pdf) - Gregory Koch
