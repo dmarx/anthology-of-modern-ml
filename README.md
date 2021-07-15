@@ -81,6 +81,7 @@ Some similar projects worth checking out:
   * 2010 - ["Feature Selection with the Boruta Package"](https://www.jstatsoft.org/article/view/v036i11) - Miron B. Kursa, Witold R. Rudnicki
 * Step-wise regression / forward selection / backwards elimination / recursive feature elimination
 * kalman filter
+  * 1960 - ["A New Approach to Linear Filtering and Prediction Problems"](http://cs-www.cs.yale.edu/homes/yry/readings/general/Kalman1960.pdf) - R. E. Kalman
 * restricted boltzman machine
 * Deep belief networks
 
