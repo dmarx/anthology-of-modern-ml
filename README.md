@@ -175,6 +175,7 @@ Some similar projects worth checking out:
 * GLoVe
 * GLUE task
 * inception/DeepDream
+  * 2015 - ["Inceptionism: Going Deeper into Neural Networks"](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html) - Alexander Mordvintsev, Christopher Olah, Mike Tyka
 * style transfer, content-texture decomposition, weight covariance transfer
 * cyclegan/discogan
 * deep autoencoders
