@@ -201,6 +201,7 @@ Lots of interesting references here on error surface geometry, not sure if the p
 
 * alexnet
 * BERT
+  * 2018 - ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"](https://arxiv.org/abs/1810.04805v2) - Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
 * RNN-LM
   * 2010 - ["Recurrent neural network based language model"](https://www.isca-speech.org/archive/archive_papers/interspeech_2010/i10_1045.pdf) - Tomas Mikolov, Martin Karafiat, Luka's Burget, Jan "Honza" Cernocky, Sanjeev Khudanpur
   * 2014 - ["Generating Sequences With Recurrent Neural Networks"](https://arxiv.org/pdf/1308.0850.pdf) - Alex Graves
