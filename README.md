@@ -43,6 +43,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * SVM
   * 1992 - [A Training Algorithm for Optimal Margin Classifier](https://www.researchgate.net/publication/2376111_A_Training_Algorithm_for_Optimal_Margin_Classifier) - Bernhard E. Boser, Isabelle Guyon, Vladimir N. Vapnik
 * NMF
+  * 2003 - ["Document Clustering Based On Non-negative Matrix Factorization"](https://people.eecs.berkeley.edu/~jfc/hcc/courseSP05/lecs/lec14/NMF03.pdf) - Wei Xu, Xin Liu, Yihong Gon
 * random projections
 * MCMC - metropolis-hastings, HMC, reversible jump, NUTS
 * SMOTE
@@ -363,7 +364,9 @@ Valuable textbooks for reference mining:
 
 Lots of interesting references here on error surface geometry, not sure if the paper itself is appropriate for this collection: https://papers.nips.cc/paper/2019/file/a4ee59dd868ba016ed2de90d330acb6a-Paper.pdf
 
-Test-of-time awards:
+Test-of-time awards (and best paper awards, but be careful with these):
 
 * ICML Test of Time Award - frustratingly, no comprehensive archive that I can find. Can search respective years for press releases and work backwards.
 * NeurIPS test of time award - same thing
+* ICLR Test of time award
+* SIGIR test of time
