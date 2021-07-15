@@ -84,6 +84,8 @@ Some similar projects worth checking out:
   * 1960 - ["A New Approach to Linear Filtering and Prediction Problems"](http://cs-www.cs.yale.edu/homes/yry/readings/general/Kalman1960.pdf) - R. E. Kalman
 * restricted boltzman machine
 * Deep belief networks
+* Scree plot
+  * 1966 - "The Scree Test For The Number Of Factors" - Raymond B. Cattell
 
 # Network Graphs / combinatorial optimization
 
