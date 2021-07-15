@@ -161,6 +161,7 @@ Some similar projects worth checking out:
 * BERT
 * RNN-LM
   * 2010 - ["Recurrent neural network based language model"](https://www.isca-speech.org/archive/archive_papers/interspeech_2010/i10_1045.pdf) - Tomas Mikolov, Martin Karafiat, Luka's Burget, Jan "Honza" Cernocky, Sanjeev Khudanpur
+  * 2014 - ["Generating Sequences With Recurrent Neural Networks"](https://arxiv.org/pdf/1308.0850.pdf) - Alex Graves
 * word2vec
   * 2013 - ["Distributed Representations of Words and Phrases and their Compositionality"](https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) - Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, Jeffrey Dean
 * U-net
