@@ -121,6 +121,7 @@ Some similar projects worth checking out:
 * sigmoid
 * tanh
 * ReLU
+  * ["Deep Sparse Rectifier Neural Networks"](http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf) - Xavier Glorot,  Antoine Bordes, Yoshua Bengio
 * leaky Relu
 
 # Neural layers
