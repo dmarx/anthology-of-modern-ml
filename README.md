@@ -34,6 +34,7 @@ Some similar projects worth checking out:
 * gradient boosting
   * 2016 - ["XGBoost: A Scalable Tree Boosting System"](https://arxiv.org/pdf/1603.02754.pdf) - Tianqi Chen, Carlos Guestrin
 * bias-variance tradeoff
+  * 1997 - ["Bias Plus Variance Decomposition for Zero-One Loss Functions"](https://www.researchgate.net/publication/2793430_Bias_Plus_Variance_Decomposition_for_Zero-One_Loss_Functions) - Ron Kohavi, David H. Wolpert
 * non-parametric bootstrap
   * 1979 - ["Bootstrap Methods: Another Look at the Jackknife"](https://projecteuclid.org/journals/annals-of-statistics/volume-7/issue-1/Bootstrap-Methods-Another-Look-at-the-Jackknife/10.1214/aos/1176344552.full) - Bradley Effron
 * permutation testing (target shuffle)
