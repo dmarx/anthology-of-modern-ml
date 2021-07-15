@@ -82,6 +82,7 @@ Some similar projects worth checking out:
 * Step-wise regression / forward selection / backwards elimination / recursive feature elimination
 * kalman filter
 * restricted boltzman machine
+* Deep belief networks
 
 # Network Graphs / combinatorial optimization
 
@@ -288,7 +289,7 @@ Some similar projects worth checking out:
 * Double machine learning
   * 2016 - ["Double/Debiased Machine Learning for Treatment and Causal Parameters"](https://arxiv.org/abs/1608.00060) - Victor Chernozhukov, Denis Chetverikov, Mert Demirer, Esther Duflo, Christian Hansen, Whitney Newey, James Robins
 * Doubly robust inference
-* Pearl's do calculus and graphical modeling
+* Pearl's do calculus and graphical modeling  / structural equation modeling
 * Rubin's potential outcomes model
 * model identification
 * d-separation
