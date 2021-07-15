@@ -86,6 +86,9 @@ Some similar projects worth checking out:
 * Deep belief networks
 * Scree plot
   * 1966 - "The Scree Test For The Number Of Factors" - Raymond B. Cattell
+* Collaborative Filtering (SVD and otherwise)
+* Market basket analysis
+* Process mining
 
 # Network Graphs / combinatorial optimization
 
