@@ -80,6 +80,8 @@ Some similar projects worth checking out:
 * Boruta
   * 2010 - ["Feature Selection with the Boruta Package"](https://www.jstatsoft.org/article/view/v036i11) - Miron B. Kursa, Witold R. Rudnicki
 * Step-wise regression / forward selection / backwards elimination / recursive feature elimination
+* kalman filter
+* restricted boltzman machine
 
 # Network Graphs / combinatorial optimization
 
