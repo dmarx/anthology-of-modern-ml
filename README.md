@@ -1,8 +1,8 @@
 # Anthology of Modern Machine Learning
 
-A curated collection of significant/impactful articles to be treated as a textbook, because sometimes it's just best to go straight to the source. 
+A curated collection of significant/impactful articles to be treated as a textbook, because sometimes it's just best to go straight to the source. My hope is to provide a reference for understanding important developments in their historical context, so the techniques can be understood in the historical context that motivated them, the problems the authors were attempting to solve, and what particular features of the discovery were considered especially novel or impressive when it was first published.
 
-I plan to have it organized a couple of ways: 
+I plan to have this organized a couple of ways: 
 
 * broad-brush topics (textbook-ish sections)
 * publication date
@@ -105,6 +105,7 @@ Some similar projects worth checking out:
 * perceptron algorithm
 * SGD / backprop
   * 1986 - ["Learning representations by back-propagating errors"](http://www.cs.utoronto.ca/~hinton/absps/naturebp.pdf) - David Rumelhart, Geoffrey Hinton, Ronald Williams
+  * 1998 - ["Efficient Backprop"](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf) -  Yann LeCun, Leon Bottou, Genevieve B. Orr and Klaus-Robert Müller
 * Adagrad / RMSProp
   * Probably discussed sufficiently in the Adam paper
 * Adam
