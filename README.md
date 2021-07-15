@@ -163,6 +163,7 @@ Some similar projects worth checking out:
   * see also Alex Graves 2013
   * 2014 - ["Neural Machine Translation by Jointly Learning to Align and Translate"](https://arxiv.org/pdf/1409.0473v7.pdf) - Dzmitry Bahdanau, KyungHyun Cho Yoshua Bengio
 * self-attention / scaled dot-product attention / transformers
+  * 2017 - ["A Structured Self-attentive Sentence Embedding"](https://arxiv.org/abs/1703.03130) - Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, Yoshua Bengio
   * 2017 - ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) - Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin
 * dropout
   * 2014 - ["Dropout: A Simple Way to Prevent Neural Networks from Overfitting"](https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf) - Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov
