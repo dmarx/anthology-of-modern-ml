@@ -201,6 +201,7 @@ Some similar projects worth checking out:
   * 2008 - ["The BigChaos Solution to the Netflix Prize 2008"](https://www.netflixprize.com/assets/ProgressPrize2008_BigChaos.pdf) - Andreas Toscher, Michael Jahrer
   * 2006 - ["How To Break Anonymity of the Netflix Prize Dataset"](https://arxiv.org/abs/cs/0610105) - Arvind Narayanan, Vitaly Shmatikov
 * Kaggle Galaxy Zoo
+* Capsule Networks
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
