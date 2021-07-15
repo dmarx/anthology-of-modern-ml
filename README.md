@@ -151,7 +151,8 @@ Lots of interesting references here on error surface geometry, not sure if the p
 * sigmoid
 * tanh
 * ReLU
-  * ["Deep Sparse Rectifier Neural Networks"](http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf) - Xavier Glorot,  Antoine Bordes, Yoshua Bengio
+  * 2011 - ["Deep Sparse Rectifier Neural Networks"](http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf) - Xavier Glorot,  Antoine Bordes, Yoshua Bengio
+  * See also AlexNet
 * leaky Relu
 
 # Neural initializations
@@ -199,7 +200,7 @@ Lots of interesting references here on error surface geometry, not sure if the p
 
 # Specific architectures/achievements, and other misc milestones
 
-* alexnet
+* alexnet - Demonstrated importance of network depth (specifically stacking convolutions), and ReLU capability over the then conventional sigmoid and tanh activations
   * 2012 (using ImageNet leaderboard date; article published 2017) - ["ImageNet Classification with Deep Convolutional Neural Networks"](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) - Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton
 * BERT
   * 2018 - ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"](https://arxiv.org/abs/1810.04805v2) - Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
