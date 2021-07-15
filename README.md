@@ -283,8 +283,10 @@ Some similar projects worth checking out:
   * 2014 - ["On the Properties of Neural Machine Translation: Encoder–Decoder Approaches"](https://arxiv.org/pdf/1409.1259.pdf) - 
 * Relationship between logistic regression and naive bayes
   * 2002 - ["On Discriminative vs. Generative classifiers: A comparison of logistic regression and naive Bayes](https://proceedings.neurips.cc/paper/2001/file/7b7a53e239400a13bd6be6c91c4f6c4e-Paper.pdf) - Andrew Ng, Michael Jordan
+* understanding softmax and its relation to log-sum-exp
+  * ["On the Properties of the Softmax Function with Application in Game Theory and Reinforcement Learning"](https://arxiv.org/pdf/1704.00805.pdf) - 
 
-# Information theory? 
+# Information theory
 
 * Entropy
 * Fisher information
