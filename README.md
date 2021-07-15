@@ -181,6 +181,7 @@ Some similar projects worth checking out:
 * random search > grid search
   * 2012 - ["Random Search for Hyper-Parameter Optimization"](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a) - James Bergstra, Yoshua Bengio
 * bayesian / gaussian process (explore/exploit)
+  * 2009 - ["Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design"](https://arxiv.org/abs/0912.3995) - Niranjan Srinivas, Andreas Krause, Sham M. Kakade, Matthias Seeger
 * Population based training
 
 # Specific architectures/achievements, and other misc milestones
