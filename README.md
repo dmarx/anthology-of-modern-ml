@@ -133,6 +133,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * gradient clipping
 * learning rate scheduling
 * distributed training
+  * 2011 - ["HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent"](https://people.eecs.berkeley.edu/~brecht/papers/hogwildTR.pdf) - Feng Niu, Benjamin Recht, Christopher Re, Stephen J. Wright
+
 * federated learning
 
 # Neural activations
