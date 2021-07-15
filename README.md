@@ -187,6 +187,7 @@ Some similar projects worth checking out:
 * GPT-2
 * ULM
 * seq2seq
+  * - 2014 - ["Sequence to Sequence Learning with Neural Networks"](https://arxiv.org/abs/1409.3215) - Ilya Sutskever, Oriol Vinyals, Quoc V. Le
 * pix2pix
 * fasttext
 * wordpiece tokenization / BPE
