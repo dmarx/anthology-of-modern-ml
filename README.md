@@ -174,7 +174,7 @@ Some similar projects worth checking out:
 * VGG16
 * GLoVe
 * GLUE task
-* inception
+* inception/DeepDream
 * style transfer, content-texture decomposition, weight covariance transfer
 * cyclegan/discogan
 * deep autoencoders
