@@ -104,6 +104,7 @@ Lots of interesting references here on error surface geometry, not sure if the p
 * Market basket analysis
 * Process mining
 * self-organizing maps
+  * 1982 - ["Self-Organized Formation of Topologically Correct Feature Maps"](https://tcosmo.github.io/assets/soms/doc/kohonen1982.pdf) - Teuvo Kohonen
 
 # Network Graphs / combinatorial optimization
 
@@ -260,6 +261,7 @@ Lots of interesting references here on error surface geometry, not sure if the p
   * 1997 - ["Bidirectional Recurrent Neural Networks"](https://www.researchgate.net/publication/3316656_Bidirectional_recurrent_neural_networks) - Mike Schuster, Kuldip K. Paliwal
 * WaveNet
   * 2016 - ["WaveNet: A Generative Model for Raw Audio"](https://arxiv.org/pdf/1609.03499.pdf) - Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, Koray Kavukcuoglu
+* Normalizing flows
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
