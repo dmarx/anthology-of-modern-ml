@@ -127,7 +127,7 @@ Some similar projects worth checking out:
 # Neural initializations
 
 * Glorot
-  * ["Understanding the difficulty of training deep feedforward neural networks"](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) - Xavier Glorot, Yoshua Bengio
+  * 2010 - ["Understanding the difficulty of training deep feedforward neural networks"](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) - Xavier Glorot, Yoshua Bengio
 
 # Neural layers
 
