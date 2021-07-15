@@ -42,6 +42,7 @@ Some similar projects worth checking out:
 * ICA
 * LSI
 * LDA
+  * 2003 - ["Latent Dirichlet Allocation"](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf) - David M. Blei, Andrew Ng, Michael I. Jordan
 * SVM
   * 1992 - [A Training Algorithm for Optimal Margin Classifier](https://www.researchgate.net/publication/2376111_A_Training_Algorithm_for_Optimal_Margin_Classifier) - Bernhard E. Boser, Isabelle Guyon, Vladimir N. Vapnik
 * NMF
