@@ -177,7 +177,8 @@ Some similar projects worth checking out:
 * inception
 * style transfer, content-texture decomposition, weight covariance transfer
 * cyclegan/discogan
-* autoencoders
+* deep autoencoders
+  * 2006 - ["Reducing the Dimensionality of Data with Neural Networks"](https://www.cs.toronto.edu/~hinton/science.pdf) - Geoff Hinton, R. R. Salakhutdinov
 * VAE
 * Amortized VAE
 * YOLO
