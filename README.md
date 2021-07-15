@@ -51,6 +51,8 @@ Some similar projects worth checking out:
 * MCMC - metropolis-hastings, HMC, reversible jump, NUTS
 * SMOTE
 * tSNE
+  * 2002 - ["Stochastic Neighbor Embedding"](https://cs.nyu.edu/~roweis/papers/sne_final.pdf) - Geoffrey Hinton, Sam Roweis 
+  * 2008 - ["Visualizing Data using t-SNE"](https://jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf) - Laurens van der Maaten, Geoffrey Hinton
 * UMAP
 * LSH
   *  2014 - ["LOCALITY PRESERVING HASHING"](https://faculty.ucmerced.edu/mhyang/papers/icip14_lph.pdf) - Yi-Hsuan Tsai, Ming-Hsuan Yang
