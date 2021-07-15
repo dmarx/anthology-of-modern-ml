@@ -101,6 +101,7 @@ Lots of interesting references here on error surface geometry, not sure if the p
 * Collaborative Filtering (SVD and otherwise)
 * Market basket analysis
 * Process mining
+* self-organizing maps
 
 # Network Graphs / combinatorial optimization
 
