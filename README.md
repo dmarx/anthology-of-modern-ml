@@ -50,6 +50,7 @@ Some similar projects worth checking out:
 * random projections
 * MCMC - metropolis-hastings, HMC, reversible jump, NUTS
 * SMOTE
+  * 2002 - ["Smote: synthetic minority over-sampling technique"](https://www.jair.org/index.php/jair/article/view/10302/24590) - Nitesh V Chawla, Kevin W Bowyer, Lawrence O Hall, W Philip Kegelmeyer
 * tSNE
   * 2002 - ["Stochastic Neighbor Embedding"](https://cs.nyu.edu/~roweis/papers/sne_final.pdf) - Geoffrey Hinton, Sam Roweis 
   * 2008 - ["Visualizing Data using t-SNE"](https://jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf) - Laurens van der Maaten, Geoffrey Hinton
@@ -76,6 +77,8 @@ Some similar projects worth checking out:
   * 1938 - "The Law of Anomalous Numbers" - Frank Benford
   * 1881 -  "Note on the frequency of use of the different digits in natural numbers" - Simon Newcomb
 * Guassian KDE
+* Boruta
+  * 2010 - ["Feature Selection with the Boruta Package"](https://www.jstatsoft.org/article/view/v036i11) - Miron B. Kursa, Witold R. Rudnicki
 
 # Network Graphs / combinatorial optimization
 
