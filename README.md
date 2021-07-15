@@ -50,6 +50,8 @@ Lots of interesting references here on error surface geometry, not sure if the p
 * permutation testing (target shuffle)
 * PCA
   * 1991 - ["Face Recognition Using Eigenfaces"](https://www.cin.ufpe.br/~rps/Artigos/Face%20Recognition%20Using%20Eigenfaces.pdf) - Matthew Turk, Alex Pentland
+* nonlinear PCA variants
+  * 1989 - ["Principal Curves"](https://web.stanford.edu/~hastie/Papers/Principal_Curves.pdf) - Trevor Hastie, Werner Stuetzle
 * ICA
 * LSI/LSA
   * 1988 - ["Indexing by Latent Semantic Analysis"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.1152&rep=rep1&type=pdf) - Scott Deerwester, Susan T. Dumais, George W. Furnas, Thomas K. Landauer, Richard Harshman
