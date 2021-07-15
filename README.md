@@ -244,7 +244,9 @@ Some similar projects worth checking out:
 * No Free Lunch
   * 1997 - ["No Free Lunch Theorems for Optimization"](https://ti.arc.nasa.gov/m/profile/dhw/papers/78.pdf) - David H. Wolpert, William G. Macready
 * Significance test for the LASSO
-
+* RNN's are near-sighted
+  * 2003 - ["Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies"](http://www.bioinf.jku.at/publications/older/ch7.pdf) - Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, Jurgen Schmidhuber
+  * 2014 - ["On the Properties of Neural Machine Translation: Encoder–Decoder Approaches"](https://arxiv.org/pdf/1409.1259.pdf) - 
 
 # Information theory? 
 
