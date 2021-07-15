@@ -160,6 +160,7 @@ Some similar projects worth checking out:
 * Residual connections - Resnets + highway networks
 * batchnorm
 * additive attention
+  * see also Alex Graves 2013
   * 2014 - ["Neural Machine Translation by Jointly Learning to Align and Translate"](https://arxiv.org/pdf/1409.0473v7.pdf) - Dzmitry Bahdanau, KyungHyun Cho Yoshua Bengio
 * self-attention / scaled dot-product attention / transformers
   * 2017 - ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) - Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin
