@@ -91,6 +91,7 @@ Some similar projects worth checking out:
 * scale free
 * "Networks of Love"
 * Genetic algorithms
+* force-directed/spring layout (fruchterman-reingold I think?)
 
 # Misc optimization and numerical methods
 
