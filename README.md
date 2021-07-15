@@ -124,6 +124,11 @@ Some similar projects worth checking out:
   * ["Deep Sparse Rectifier Neural Networks"](http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf) - Xavier Glorot,  Antoine Bordes, Yoshua Bengio
 * leaky Relu
 
+# Neural initializations
+
+* Glorot
+  * ["Understanding the difficulty of training deep feedforward neural networks"](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) - Xavier Glorot, Yoshua Bengio
+
 # Neural layers
 
 * MLP
