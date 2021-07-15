@@ -205,6 +205,8 @@ Some similar projects worth checking out:
   * 2006 - ["How To Break Anonymity of the Netflix Prize Dataset"](https://arxiv.org/abs/cs/0610105) - Arvind Narayanan, Vitaly Shmatikov
 * Kaggle Galaxy Zoo
 * Capsule Networks
+* BiDirectional RNN
+  * 1997 - ["Bidirectional Recurrent Neural Networks"](https://www.researchgate.net/publication/3316656_Bidirectional_recurrent_neural_networks) - Mike Schuster, Kuldip K. Paliwal
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
