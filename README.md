@@ -208,6 +208,8 @@ Some similar projects worth checking out:
 * Capsule Networks
 * BiDirectional RNN
   * 1997 - ["Bidirectional Recurrent Neural Networks"](https://www.researchgate.net/publication/3316656_Bidirectional_recurrent_neural_networks) - Mike Schuster, Kuldip K. Paliwal
+* WaveNet
+  * 2016 - ["WaveNet: A Generative Model for Raw Audio"](https://arxiv.org/pdf/1609.03499.pdf) - Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, Koray Kavukcuoglu
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
