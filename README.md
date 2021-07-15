@@ -312,6 +312,8 @@ Lots of interesting references here on error surface geometry, not sure if the p
   * 2014 - ["Neural Word Embedding as Implicit Matrix Factorization"](https://papers.nips.cc/paper/2014/file/feab05aa91085b7a8012516bc3533958-Paper.pdf) - Omer Levy, Yoav Goldberg
 * The distributional hypothesis (computational linguistics)
   * 1954 - ["Distributional Structure"](https://www.tandfonline.com/doi/pdf/10.1080/00437956.1954.11659520) - Zellig Harris
+* Johnson–Lindenstrauss lemma (high dim manifolds can be accurately projected onto lower dim embeddings)
+  * 1984 - "Extensions of Lipschitz mappings into a Hilbert space" - William B. Johnson, Joram Lindenstrauss
   
 # Information theory
 
