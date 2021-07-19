@@ -305,6 +305,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 1954 - ["Distributional Structure"](https://www.tandfonline.com/doi/pdf/10.1080/00437956.1954.11659520) - Zellig Harris
 * Johnson–Lindenstrauss lemma (high dim manifolds can be accurately projected onto lower dim embeddings)
   * 1984 - "Extensions of Lipschitz mappings into a Hilbert space" - William B. Johnson, Joram Lindenstrauss
+* Empirical Risk Minimization
+  * 1992 - ["Principles of Risk Minimization for Learning Theory"](https://proceedings.neurips.cc/paper/1991/file/ff4d5fbbafdf976cfdc032e3bde78de5-Paper.pdf) - V. Vapnik
   
 # Information theory
 
