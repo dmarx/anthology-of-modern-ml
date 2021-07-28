@@ -161,6 +161,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 1997 - ["LONG SHORT-TERM MEMORY"](https://www.bioinf.jku.at/publications/older/2604.pdf) - Sepp Hochreiter, Jurgen Schmidhuber
 * GRU
 * Residual connections - Resnets + highway networks
+  * 2015 - ["Highway Networks"](https://arxiv.org/abs/1505.00387) - Rupesh Kumar Srivastava, Klaus Greff, Jürgen Schmidhuber
+  * 2015 - ["Deep Residual Learning for Image Recognition"](https://arxiv.org/pdf/1512.03385.pdf) - Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 * batchnorm
 * additive attention
   * see also Alex Graves 2013
