@@ -92,8 +92,6 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 # Network Graphs / combinatorial optimization
 
-* Dijkstra
-* A\*
 * Graph anomaly detection (enron)
 * Exponential random graphs
 * modularity / louvain community detection
@@ -101,7 +99,6 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2008 - ["Fast unfolding of communities in large networks"](https://arxiv.org/abs/0803.0476) - Vincent D. Blondel, Jean-Loup Guillaume, Renaud Lambiotte, Etienne Lefebvre
 * pagerank
   * 1998 - ["The PageRank Citation Ranking: Bringing Order to the Web"](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf) - Larry Page
-* knapsack problem
 * smallworld
 * scale free
 * "Networks of Love"
@@ -141,15 +138,13 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 # Neural activations
 
 * sigmoid
-* tanh
 * ReLU
   * 2011 - ["Deep Sparse Rectifier Neural Networks"](http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf) - Xavier Glorot,  Antoine Bordes, Yoshua Bengio
   * See also AlexNet
-* leaky Relu
 
 # Neural initializations
 
-* Glorot
+* Xavier/Glorot
   * 2010 - ["Understanding the difficulty of training deep feedforward neural networks"](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) - Xavier Glorot, Yoshua Bengio
 
 # Neural layers
@@ -159,7 +154,6 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * dilated convolutions (Wavenet)
 * LSTM
   * 1997 - ["LONG SHORT-TERM MEMORY"](https://www.bioinf.jku.at/publications/older/2604.pdf) - Sepp Hochreiter, Jurgen Schmidhuber
-* GRU
 * Residual connections - Resnets + highway networks
   * 2015 - ["Highway Networks"](https://arxiv.org/abs/1505.00387) - Rupesh Kumar Srivastava, Klaus Greff, Jürgen Schmidhuber
   * 2015 - ["Deep Residual Learning for Image Recognition"](https://arxiv.org/pdf/1512.03385.pdf) - Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
@@ -329,6 +323,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * propensity scoring/matching
 * item-response model and adaptive testing
 * bandit learning for on-line experimentation
+* belief propagation
 
 # Time series forecasting
 
