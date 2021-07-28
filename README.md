@@ -189,6 +189,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 # Specific architectures/achievements, and other misc milestones
 
+* LeNet
+  * 1998 - ["GradientBased Learning Applied to Document Recognition"](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf) - Yann LeCun, Leon Bottou, Yoshua Bengio, Patrick Haffner
 * alexnet - Demonstrated importance of network depth (specifically stacking convolutions), and ReLU capability over the then conventional sigmoid and tanh activations
   * 2012 (using ImageNet leaderboard date; article published 2017) - ["ImageNet Classification with Deep Convolutional Neural Networks"](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) - Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton
 * BERT
