@@ -60,7 +60,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2009 - ["Feature Hashing for Large Scale Multitask Learning"](http://alex.smola.org/papers/2009/Weinbergeretal09.pdf) - Kilian Weinberger; Anirban Dasgupta; John Langford; Alex Smola; Josh Attenberg
 * the kernel trick
 * naive bayes
-* HMM
+* ~~HMM~~
 * CRF
 * RBM - Restricted Boltzman Machine
 * GAM - General Additive Models
