@@ -306,6 +306,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 1984 - "Extensions of Lipschitz mappings into a Hilbert space" - William B. Johnson, Joram Lindenstrauss
 * Empirical Risk Minimization
   * 1992 - ["Principles of Risk Minimization for Learning Theory"](https://proceedings.neurips.cc/paper/1991/file/ff4d5fbbafdf976cfdc032e3bde78de5-Paper.pdf) - V. Vapnik
+* saddlepoints more problematic than local minima
+  * 2014 - ["Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"](https://arxiv.org/abs/1406.2572) - Yann Dauphin, Razvan Pascanu, Caglar Gulcehre, Kyunghyun Cho, Surya Ganguli, Yoshua Bengio
   
 # Information theory
 
