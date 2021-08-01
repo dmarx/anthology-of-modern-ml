@@ -312,6 +312,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2016 - ["Understanding deep learning requires rethinking generalization"](https://arxiv.org/pdf/1611.03530.pdf) - Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
 * Strong inductive bias in CNN structure 
   * 2018 - ["Deep Image Prior"](https://openaccess.thecvf.com/content_cvpr_2018/html/Ulyanov_Deep_Image_Prior_CVPR_2018_paper.html) - Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky
+* prediction calibration
+  * 2017 - ["On Calibration of Modern Neural Networks"](http://proceedings.mlr.press/v70/guo17a.html) - Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger
   
 # Information theory
 
