@@ -308,7 +308,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 1992 - ["Principles of Risk Minimization for Learning Theory"](https://proceedings.neurips.cc/paper/1991/file/ff4d5fbbafdf976cfdc032e3bde78de5-Paper.pdf) - V. Vapnik
 * saddlepoints more problematic than local minima
   * 2014 - ["Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"](https://arxiv.org/abs/1406.2572) - Yann Dauphin, Razvan Pascanu, Caglar Gulcehre, Kyunghyun Cho, Surya Ganguli, Yoshua Bengio
-* generalization and overparameterization
+* generalization and overparameterization, effective model capacity
   * 2016 - ["Understanding deep learning requires rethinking generalization"](https://arxiv.org/pdf/1611.03530.pdf) - Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
 * Strong inductive bias in CNN structure 
   * 2018 - ["Deep Image Prior"](https://openaccess.thecvf.com/content_cvpr_2018/html/Ulyanov_Deep_Image_Prior_CVPR_2018_paper.html) - Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky
