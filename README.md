@@ -89,6 +89,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Process mining
 * self-organizing maps
   * 1982 - ["Self-Organized Formation of Topologically Correct Feature Maps"](https://tcosmo.github.io/assets/soms/doc/kohonen1982.pdf) - Teuvo Kohonen
+* Good overview of modeling process
+  * 2020 - ["Bayesian workflow"](https://arxiv.org/pdf/2011.01808v1.pdf) - Andrew Gelman, Aki Vehtari, Daniel Simpson, Charles C. Margossian, Bob Carpenter, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian Bürkner, Martin Modrák
+
 
 # Network Graphs / combinatorial optimization
 
