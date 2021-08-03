@@ -319,7 +319,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2017 - ["On Calibration of Modern Neural Networks"](http://proceedings.mlr.press/v70/guo17a.html) - Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger
 * batch-norm and dropout in tug-of-war
   * 2018 - ["Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift"](https://arxiv.org/pdf/1801.05134.pdf) - Xiang Li, Shuo Chen, Xiaolin Hu, Jian Yang
-  
+* deep learning model fitting process
+  * http://karpathy.github.io/2019/04/25/recipe/  
   
 # Information theory
 
