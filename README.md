@@ -108,6 +108,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Genetic algorithms
 * force-directed/spring layout (fruchterman-reingold I think?)
 * label propagation
+  * 2002 - ["Learning From Labeled and Unlabeled Data With Label Propagation"](http://mlg.eng.cam.ac.uk/zoubin/papers/CMU-CALD-02-107.pdf) - Xiaojin Zhu, Zoubin Ghahramani
 
 # Misc optimization and numerical methods
 
