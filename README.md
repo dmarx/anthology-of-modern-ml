@@ -190,6 +190,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * bayesian / gaussian process (explore/exploit)
   * 2009 - ["Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design"](https://arxiv.org/abs/0912.3995) - Niranjan Srinivas, Andreas Krause, Sham M. Kakade, Matthias Seeger
 * Population based training
+* bandit/hyperband
+  * 2016 - ["Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization"](https://arxiv.org/pdf/1603.06560.pdf) - 
 
 # Specific architectures/achievements, and other misc milestones
 
