@@ -148,7 +148,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 # Neural initializations
 
-* Xavier/Glorot
+* Xavier/Glorot initialization - vanishing/exploding gradients
   * 2010 - ["Understanding the difficulty of training deep feedforward neural networks"](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) - Xavier Glorot, Yoshua Bengio
 
 # Neural layers
