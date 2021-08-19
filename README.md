@@ -276,6 +276,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 1998 - "On Measuring and Correcting the Effects of Data Mining and Model Selection" - Jianming Ye
 * AIC / BIC
 * dropout as ensemblification
+  * 2013 - ["Understanding Dropout"](https://papers.nips.cc/paper/2013/file/71f6278d140af599e06ad9bf1ba03cb0-Paper.pdf) - Pierre Baldi, Peter Sadowski
   * 2017 - ["Analysis of dropout learning regarded as ensemble learning"](https://arxiv.org/pdf/1706.06859.pdf) - Kazuyuki Hara, Daisuke Saitoh, Hayaru Shouno
 * knowledge distillation
   * 2005 - ["Model Compression"](http://www.cs.cornell.edu/~caruana/compression.kdd06.pdf) - Cristian Bucila, Rich Caruana, Alexandru Niculescu-Mizil
