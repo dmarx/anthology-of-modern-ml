@@ -198,7 +198,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * LeNet
   * 1998 - ["GradientBased Learning Applied to Document Recognition"](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf) - Yann LeCun, Leon Bottou, Yoshua Bengio, Patrick Haffner
 * alexnet - Demonstrated importance of network depth (specifically stacking convolutions), and ReLU capability over the then conventional sigmoid and tanh activations
-  * 2012 (using ImageNet leaderboard date; article published 2017) - ["ImageNet Classification with Deep Convolutional Neural Networks"](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) - Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton
+  * 2012 - (using ImageNet leaderboard date; article published 2017) - ["ImageNet Classification with Deep Convolutional Neural Networks"](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) - Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton
 * BERT
   * 2018 - ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"](https://arxiv.org/abs/1810.04805v2) - Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
 * RNN-LM
@@ -231,7 +231,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * GPT-2
 * ULM
 * seq2seq
-  * - 2014 - ["Sequence to Sequence Learning with Neural Networks"](https://arxiv.org/abs/1409.3215) - Ilya Sutskever, Oriol Vinyals, Quoc V. Le
+  * 2014 - ["Sequence to Sequence Learning with Neural Networks"](https://arxiv.org/abs/1409.3215) - Ilya Sutskever, Oriol Vinyals, Quoc V. Le
 * pix2pix
 * fasttext
 * wordpiece tokenization / BPE
