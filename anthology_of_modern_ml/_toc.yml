@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-article
+root: intro
+sections:
+- file: content
+  sections:
+  - file: markdown
+  - file: notebooks
