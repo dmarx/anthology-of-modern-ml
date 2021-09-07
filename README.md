@@ -258,6 +258,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2021 - ["Highly accurate protein structure prediction with AlphaFold"](https://www.nature.com/articles/s41586-021-03819-2) - John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin Žídek, Anna Potapenko, Alex Bridgland, Clemens Meyer, Simon A. A. Kohl, Andrew J. Ballard, Andrew Cowie, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Demis Hassabis
 * AlphaGo
 * IBM Watson on Jeopardy
+* EfficientNet - Scaling laws for conv-resnets
+  * 2019 - ["EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks"](http://proceedings.mlr.press/v97/tan19a/tan19a.pdf) - Mingxing Tan, Quoc V. Le
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
