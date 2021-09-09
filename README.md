@@ -260,6 +260,10 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * IBM Watson on Jeopardy
 * EfficientNet - Scaling laws for conv-resnets
   * 2019 - ["EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks"](http://proceedings.mlr.press/v97/tan19a/tan19a.pdf) - Mingxing Tan, Quoc V. Le
+* FPN - Feature Pyramid Networks
+  * 2016 - ["Feature Pyramid Networks for Object Detection"](https://arxiv.org/pdf/1612.03144.pdf) - Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, Serge Belongie
+* Mask R-CNN
+  * 2017 - ["Mask R-CNN"](https://arxiv.org/pdf/1703.06870.pdf) - Kaiming He, Georgia Gkioxari, Piotr Dollár, Ross Girshick
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
