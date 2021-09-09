@@ -155,6 +155,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 * MLP
 * convolutions (+ pooling)
+* depthwise-seperable convolutions (mobilenet?)
 * dilated convolutions (Wavenet)
 * LSTM
   * 1997 - ["LONG SHORT-TERM MEMORY"](https://www.bioinf.jku.at/publications/older/2604.pdf) - Sepp Hochreiter, Jurgen Schmidhuber
@@ -264,6 +265,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2016 - ["Feature Pyramid Networks for Object Detection"](https://arxiv.org/pdf/1612.03144.pdf) - Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, Serge Belongie
 * Mask R-CNN
   * 2017 - ["Mask R-CNN"](https://arxiv.org/pdf/1703.06870.pdf) - Kaiming He, Georgia Gkioxari, Piotr Dollár, Ross Girshick
+* Mobilenet
+  * 2017 - ["MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"](https://arxiv.org/pdf/1704.04861.pdf) - Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, Hartwig Adam
+  * 2018 ["MobileNetV2: Inverted Residuals and Linear Bottlenecks"](https://arxiv.org/abs/1801.04381) - Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
