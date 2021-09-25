@@ -216,6 +216,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * student-teacher transfer learning, catastrophic forgetting
   * see also knowledge distillation below
 * GAN, DCGAN, WGAN
+* StyleGAN -> StyleGANv2 -> StyleGAN2-ADA
 * Neural ODE
 * Neural PDE
 * VGG
