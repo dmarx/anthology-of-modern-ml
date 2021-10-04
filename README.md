@@ -280,6 +280,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 1989 - ["Learnability and the Vapnik-Chervonenkis Dimension "](https://www.trhvidsten.com/docs/classics/Blumer-1989.pdf) - Blumer, A.; Ehrenfeucht, A.; Haussler, D.; Warmuth, M. K. 
 * gradient double descent
   * 2019 - ["Deep Double Descent: Where Bigger Models and More Data Hurt"](https://arxiv.org/abs/1912.02292) - Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, Ilya Sutskever
+  * 2021 -["A Farewell to the Bias-Variance Tradeoff? An Overview of the Theory of Overparameterized Machine Learning"](https://arxiv.org/pdf/2109.02355.pdf) - Yehuda Dar, Vidya Muthukumar, Richard G. Baraniuk
 * neural tangent kernel
   * 2018 - ["Neural Tangent Kernel: Convergence and Generalization in Neural Networks"](https://arxiv.org/abs/1806.07572) - Arthur Jacot, Franck Gabriel, Clément Hongler
 * lottery ticket hypothesis
