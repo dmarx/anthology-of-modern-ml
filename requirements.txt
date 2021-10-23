@@ -2,3 +2,6 @@ jupyter-book
 matplotlib
 numpy
 ghp-import
+panel
+unidecode
+loguru
