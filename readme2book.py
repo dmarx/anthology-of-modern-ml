@@ -18,6 +18,50 @@ from collections import defaultdict
 from unidecode import unidecode
 import string
 
+class Stub:
+    _header = """---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---"""
+
+    _pdf_embed_template = """```{{code-cell}} ipython3
+:tags: [hide-input]
+
+import panel as pn
+pn.extension()
+pdf_pane = pn.pane.PDF('{pdf_url}', width=700, height=1000)
+pdf_pane
+```
+"""
+
+    def __init__(self, item, depth=1):
+        self.item = item
+        self.depth=depth
+    @property
+    def title(self):
+        h = '#'*self.depth
+        return f"{h} {self.item['title_part']}"
+    @property
+    def pdf_embed(self):
+        return self._pdf_embed_template.format(pdf_url=self.item['url'])
+    def __str__(self):
+        parts = [self._header]
+        parts.append(self.title)
+        url = self.item.get('url')
+        if self.item.get('is_pdf'):
+            url = self.pdf_embed
+        if url:
+            parts.append(url)
+        return '\n\n'.join(parts)
+        
+
 class ReadmeParser:
     def __init__(self, fpath='README.md'):
         self.fpath = fpath
@@ -149,6 +193,10 @@ class ReadmeParser:
         author_clean = clean(author)
         title_clean = clean(entry['title_part'])
         return f"{entry['year']}_{author_clean}_{title_clean[:k_title_chars]}"
+        
+# to do:
+# - generate stubs from items
+# - generate TOC entries
         
 if __name__ == '__main__':
     parser = ReadmeParser()
