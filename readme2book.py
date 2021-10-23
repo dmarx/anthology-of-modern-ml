@@ -137,7 +137,7 @@ class ReadmeParser:
 
                 if recs:
                     entry['subheadings'][topic] = recs
-            return entries
+        return entries
     def generate_fname(self, entry, k_title_chars=30):
         """YYYY_FirstAuthorFullName_FirstKCharactersOfArticleTitle"""
         def clean(text):
