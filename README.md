@@ -45,6 +45,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * NMF
   * 2003 - ["Document Clustering Based On Non-negative Matrix Factorization"](https://people.eecs.berkeley.edu/~jfc/hcc/courseSP05/lecs/lec14/NMF03.pdf) - Wei Xu, Xin Liu, Yihong Gon
 * random projections
+  * https://cseweb.ucsd.edu/~dasgupta/papers/randomf.pdf
+  * See also Johnson-Lindenstrauss lemma
 * MCMC - metropolis-hastings, HMC, reversible jump, NUTS
 * SMOTE
   * 2002 - ["Smote: synthetic minority over-sampling technique"](https://www.jair.org/index.php/jair/article/view/10302/24590) - Nitesh V Chawla, Kevin W Bowyer, Lawrence O Hall, W Philip Kegelmeyer
