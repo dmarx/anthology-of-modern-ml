@@ -165,6 +165,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2015 - ["Highway Networks"](https://arxiv.org/abs/1505.00387) - Rupesh Kumar Srivastava, Klaus Greff, Jürgen Schmidhuber
   * 2015 - ["Deep Residual Learning for Image Recognition"](https://arxiv.org/pdf/1512.03385.pdf) - Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 * batchnorm
+  * 2015 - ["Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"](https://arxiv.org/abs/1502.03167) - Sergey Ioffe, Christian Szegedy
 * additive attention
   * see also Alex Graves 2013
   * 2014 - ["Neural Machine Translation by Jointly Learning to Align and Translate"](https://arxiv.org/pdf/1409.0473v7.pdf) - Dzmitry Bahdanau, KyungHyun Cho Yoshua Bengio
