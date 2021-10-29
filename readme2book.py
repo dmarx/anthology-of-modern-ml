@@ -28,13 +28,17 @@ class Book:
         self.outpath = outpath
         self.parser = ReadmeParser(fpath=readme_fpath)
     def generate_stubs(self):
+        self.stubs = []
         for topic in self.parser.entries:
             if 'subheadings' not in topic:
                 continue
             for subtopic, entries in topic['subheadings'].items():
                 for entry in entries:
                     stub = Stub(entry, depth=3)
+                    self.stubs.append(stub)
                     # write stub to disk
+                    stub.write(self.outpath)
+                    
                     # map stub to TOC entry (or write TOC entry?)
                 
     def add_stubs_to_toc(self):
@@ -83,6 +87,11 @@ pdf_pane
         if url:
             parts.append(url)
         return '\n\n'.join(parts)
+    def write(self, fpath='.'):
+        outpath = Path(fpath) / Path(self.item['stub_name'])
+        with open(outpath, 'w') as f:
+            f.write(str(self))
+        
         
 
 class ReadmeParser:
