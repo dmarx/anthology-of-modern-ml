@@ -17,6 +17,7 @@ from loguru import logger
 from collections import defaultdict
 from unidecode import unidecode
 import string
+from pathlib import Path
 
 
 class Book:
@@ -87,8 +88,8 @@ pdf_pane
         if url:
             parts.append(url)
         return '\n\n'.join(parts)
-    def write(self, fpath='.'):
-        outpath = Path(fpath) / Path(self.item['stub_name'])
+    def write(self, fpath='.', ext='.md'):
+        outpath = Path(fpath) / Path(self.item['stub_name'] + ext) 
         with open(outpath, 'w') as f:
             f.write(str(self))
         
@@ -232,3 +233,10 @@ class ReadmeParser:
         
 if __name__ == '__main__':
     parser = ReadmeParser()
+    stub_path='anthology_of_modern_ml/stubs'
+    for entry in parser.entries:
+        if 'subheadings' not in entry:
+            continue
+        for item in entry['subheadings'].values():
+            stub = Stub(item)
+            stub.write(stub_path)

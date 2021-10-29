@@ -9,3 +9,4 @@ sections:
   - file: markdown
   - file: notebooks
   - file: pdf_embed_stub
+  - glob: stubs/*
