@@ -18,6 +18,30 @@ from collections import defaultdict
 from unidecode import unidecode
 import string
 
+
+class Book:
+    def __init__(self, 
+                 readme_fpath='README.md',
+                 outpath='content',
+                 toc_path='_toc.md',
+                 ):
+        self.outpath = outpath
+        self.parser = ReadmeParser(fpath=readme_fpath)
+    def generate_stubs(self):
+        for topic in self.parser.entries:
+            if 'subheadings' not in topic:
+                continue
+            for subtopic, entries in topic['subheadings'].items():
+                for entry in entries:
+                    stub = Stub(entry, depth=3)
+                    # write stub to disk
+                    # map stub to TOC entry (or write TOC entry?)
+                
+    def add_stubs_to_toc(self):
+        pass
+
+
+
 class Stub:
     _header = """---
 jupytext:
@@ -38,8 +62,7 @@ import panel as pn
 pn.extension()
 pdf_pane = pn.pane.PDF('{pdf_url}', width=700, height=1000)
 pdf_pane
-```
-"""
+```"""
 
     def __init__(self, item, depth=1):
         self.item = item
