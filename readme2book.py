@@ -83,8 +83,8 @@ pdf_pane
         parts = [self._header]
         parts.append(self.title)
         url = self.item.get('url')
-        if self.item.get('is_pdf'):
-            url = self.pdf_embed
+        #if self.item.get('is_pdf'):
+        #    url = self.pdf_embed
         if url:
             parts.append(url)
         return '\n\n'.join(parts)
