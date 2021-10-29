@@ -1,0 +1,911 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>“Denoising Diffusion Probabilistic Models” &#8212; Anthology of Modern Machine Learning</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="“Language Models are Few-Shot Learners”" href="2020_TomBBrown_LanguageModelsAreFewShotLearne.html" />
+    <link rel="prev" title="“Bayesian workflow”" href="2020_AndrewGelman_BayesianWorkflow.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Anthology of Modern Machine Learning</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Welcome to your Jupyter Book
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../content.html">
+   Content in Jupyter Book
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown.html">
+     Markdown Files
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../notebooks.html">
+     Content with notebooks
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../pdf_embed_stub.html">
+     Read this PDF
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1954_ZelligHarris_DistributionalStructure.html">
+     “Distributional Structure”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1960_REKalman_ANewApproachToLinearFilteringA.html">
+     “A New Approach to Linear Filtering and Prediction Problems”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1967_TMCover_NearestNeighborPatternClassifi.html">
+     “Nearest Neighbor Pattern Classification”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1971_VVapnikAndAChervonenkis_OnTheUniformConvergenceOfRelat.html">
+     “On the uniform convergence of relative frequencies of events to their probabilities”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1979_BradleyEffron_BootstrapMethodsAnotherLookAtT.html">
+     “Bootstrap Methods: Another Look at the Jackknife”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1982_TeuvoKohonen_SelfOrganizedFormationOfTopolo.html">
+     “Self-Organized Formation of Topologically Correct Feature Maps”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1984_BreimanL_CartClassificationAndRegressio.html">
+     CART) “Classification and Regression Trees” - in lieu of the book, here’s a [topic summary from 2011
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1984_LGValiant_ATheoryOfTheLearnable.html">
+     “A Theory of the Learnable”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1986_DavidRumelhart_LearningRepresentationsByBackP.html">
+     “Learning representations by back-propagating errors”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1986_JRQuinlan_Id3InductionOfDecisionTrees.html">
+     ID3) [“Induction of Decision Trees”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1988_RichardSSutton_LearningToPredictByTheMethodsO.html">
+     “Learning to predict by the methods of temporal differences”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1988_ScottDeerwester_IndexingByLatentSemanticAnalys.html">
+     “Indexing by Latent Semantic Analysis”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1989_Blumer_LearnabilityAndTheVapnikChervo.html">
+     “Learnability and the Vapnik-Chervonenkis Dimension “
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1989_ChristopherWatkins_LearningFromDelayedRewards.html">
+     “Learning from Delayed Rewards”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1989_Hornik_MultilayerFeedforwardNetworksA.html">
+     “Multilayer Feedforward Networks are Universal Approximators”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1989_JohnMoody_FastLearningInMultiResolutionH.html">
+     “Fast learning in multi-resolution hierarchies”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1989_TrevorHastie_PrincipalCurves.html">
+     “Principal Curves”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1990_RobertESchapire_TheStrengthOfWeakLearnability.html">
+     “The Strength of Weak Learnability”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1991_JConnor_RecurrentNetworksAndNarmaModel.html">
+     “Recurrent Networks and NARMA Modeling”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1991_JeromeHFriedman_MultivariateAdaptiveRegression.html">
+     “Multivariate Adaptive Regression Splines”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1991_KurtHornik_ApproximationCapabilitiesOfMul.html">
+     “Approximation capabilities of multilayer feedforward networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1991_LeoBreiman_BaggingPredictors.html">
+     “Bagging Predictors”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1991_MarkAKramer_NonlinearPrincipalComponentAna.html">
+     “Nonlinear principal component analysis using autoassociative neural networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1991_MatthewTurk_FaceRecognitionUsingEigenfaces.html">
+     “Face Recognition Using Eigenfaces”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1992_BernhardEBoser_ATrainingAlgorithmForOptimalMa.html">
+     A Training Algorithm for Optimal Margin Classifier
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1992_VVapnik_PrinciplesOfRiskMinimizationFo.html">
+     “Principles of Risk Minimization for Learning Theory”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1993_MosheLeshno_MultilayerFeedforwardNetworksW.html">
+     “Multilayer Feedforward Networks With a Nonpolynomial Activation Function Can Approximate Any Function”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1995_ChristopherBishop_BayesianMethodsForNeuralNetwor.html">
+     “Bayesian Methods for Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1996_RobertTibshirani_RegressionShrinkageAndSelectio.html">
+     “Regression Shrinkage and Selection via the Lasso”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1997_DavidHWolpert_NoFreeLunchTheoremsForOptimiza.html">
+     “No Free Lunch Theorems for Optimization”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1997_MikeSchuster_BidirectionalRecurrentNeuralNe.html">
+     “Bidirectional Recurrent Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1997_RonKohavi_BiasPlusVarianceDecompositionF.html">
+     “Bias Plus Variance Decomposition for Zero-One Loss Functions”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1997_SeppHochreiter_LongShortTermMemory.html">
+     “LONG SHORT-TERM MEMORY”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1997_YoavFreund_AdaboostADecisionTheoreticGene.html">
+     AdaBoost) [“A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1998_LarryPage_ThePagerankCitationRankingBrin.html">
+     “The PageRank Citation Ranking: Bringing Order to the Web”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1998_YannLecun_EfficientBackprop.html">
+     “Efficient Backprop”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1998_YannLecun_GradientbasedLearningAppliedTo.html">
+     “GradientBased Learning Applied to Document Recognition”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1999_YoavFreund_ImprovedBoostingAlgorithmsUsin.html">
+     “Improved Boosting Algorithms Using Confidence-rated Predictions”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2001_LeoBreiman_RandomForests.html">
+     “Random Forests”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2002_AndrewNg_OnDiscriminativeVsGenerativeCl.html">
+     “On Discriminative vs. Generative classifiers: A comparison of logistic regression and naive Bayes
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2002_GeoffreyHinton_StochasticNeighborEmbedding.html">
+     “Stochastic Neighbor Embedding”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2002_NiteshVChawla_SmoteSyntheticMinorityOverSamp.html">
+     “Smote: synthetic minority over-sampling technique”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2002_XiaojinZhu_LearningFromLabeledAndUnlabele.html">
+     “Learning From Labeled and Unlabeled Data With Label Propagation”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2003_DavidMBlei_LatentDirichletAllocation.html">
+     “Latent Dirichlet Allocation”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2003_SeppHochreiter_GradientFlowInRecurrentNetsThe.html">
+     “Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2003_WeiXu_DocumentClusteringBasedOnNonNe.html">
+     “Document Clustering Based On Non-negative Matrix Factorization”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2004_AaronClauset_FindingCommunityStructureInVer.html">
+     “Finding community structure in very large networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2005_CristianBucila_ModelCompression.html">
+     “Model Compression”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2005_HuiZou_RegularizationAndVariableSelec.html">
+     “Regularization and variable selection via the elastic net”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2006_ArvindNarayanan_HowToBreakAnonymityOfTheNetfli.html">
+     “How To Break Anonymity of the Netflix Prize Dataset”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2006_GeoffHinton_ReducingTheDimensionalityOfDat.html">
+     “Reducing the Dimensionality of Data with Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2007_OverviewOfTheContestAndDataset_TheNetflixPrize.html">
+     “The Netflix Prize”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2007_RobertMBell_TheBellkorSolutionToTheNetflix.html">
+     “The BellKor solution to the Netflix Prize”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2008_AndreasToscher_TheBigchaosSolutionToTheNetfli.html">
+     “The BigChaos Solution to the Netflix Prize 2008”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2008_LaurensVanDerMaaten_VisualizingDataUsingTSne.html">
+     “Visualizing Data using t-SNE”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2008_RobertMBell_TheBellkor2008SolutionToTheNet.html">
+     “The BellKor 2008 Solution to the Netflix Prize”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2008_VincentDBlondel_FastUnfoldingOfCommunitiesInLa.html">
+     “Fast unfolding of communities in large networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2009_KilianWeinbergerAnirbanDasguptaJohnLangfordAlexSmolaJoshAttenberg_FeatureHashingForLargeScaleMul.html">
+     “Feature Hashing for Large Scale Multitask Learning”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2009_NiranjanSrinivas_GaussianProcessOptimizationInT.html">
+     “Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2010_MironBKursa_FeatureSelectionWithTheBorutaP.html">
+     “Feature Selection with the Boruta Package”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2010_TomasMikolov_RecurrentNeuralNetworkBasedLan.html">
+     “Recurrent neural network based language model”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2010_XavierGlorot_UnderstandingTheDifficultyOfTr.html">
+     “Understanding the difficulty of training deep feedforward neural networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2011_FengNiu_HogwildALockFreeApproachToPara.html">
+     “HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2011_XavierGlorot_DeepSparseRectifierNeuralNetwo.html">
+     “Deep Sparse Rectifier Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2012_AlexKrizhevsky_UsingImagenetLeaderboardDateAr.html">
+     using ImageNet leaderboard date; article published 2017) - [“ImageNet Classification with Deep Convolutional Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2012_JamesBergstra_RandomSearchForHyperParameterO.html">
+     “Random Search for Hyper-Parameter Optimization”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2013_DiederikPKingma_AutoEncodingVariationalBayes.html">
+     “Auto-Encoding Variational Bayes”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2013_PierreBaldi_UnderstandingDropout.html">
+     “Understanding Dropout”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2013_TomasMikolov_DistributedRepresentationsOfWo.html">
+     “Distributed Representations of Words and Phrases and their Compositionality”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2013_VolodymyrMnih_DqnPlayingAtariWithDeepReinfor.html">
+     DQN) [“Playing Atari with Deep Reinforcement Learning”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014_AlexGraves_GeneratingSequencesWithRecurre.html">
+     “Generating Sequences With Recurrent Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014_AnhNguyen_DeepNeuralNetworksAreEasilyFoo.html">
+     “Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014_DiederikPKingma_AdamAMethodForStochasticOptimi.html">
+     “Adam: A Method for Stochastic Optimization”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014_DzmitryBahdanau_NeuralMachineTranslationByJoin.html">
+     “Neural Machine Translation by Jointly Learning to Align and Translate”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014_IlyaSutskever_SequenceToSequenceLearningWith.html">
+     “Sequence to Sequence Learning with Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014_KarenSimonyan_VeryDeepConvolutionalNetworksF.html">
+     “Very Deep Convolutional Networks for Large-Scale Image Recognition”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014_NitishSrivastava_DropoutASimpleWayToPreventNeur.html">
+     “Dropout: A Simple Way to Prevent Neural Networks from Overfitting”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014_OmerLevy_NeuralWordEmbeddingAsImplicitM.html">
+     “Neural Word Embedding as Implicit Matrix Factorization”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014_YannDauphin_IdentifyingAndAttackingTheSadd.html">
+     “Identifying and attacking the saddle point problem in high-dimensional non-convex optimization”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014_YiHsuanTsai_LocalityPreservingHashing.html">
+     “LOCALITY PRESERVING HASHING”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2014__OnThePropertiesOfNeuralMachine.html">
+     “On the Properties of Neural Machine Translation: Encoder–Decoder Approaches”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2015_AlexanderMordvintsev_InceptionismGoingDeeperIntoNeu.html">
+     “Inceptionism: Going Deeper into Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2015_GeoffreyHinton_DistillingTheKnowledgeInANeura.html">
+     “Distilling the Knowledge in a Neural Network”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2015_GregoryKoch_SiameseNeuralNetworksForOneSho.html">
+     “Siamese Neural Networks for One-Shot Image Recognition”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2015_JaschaSohlDickstein_DeepUnsupervisedLearningUsingN.html">
+     “Deep Unsupervised Learning using Nonequilibrium Thermodynamics”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2015_KaimingHe_DeepResidualLearningForImageRe.html">
+     “Deep Residual Learning for Image Recognition”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2015_RicoSennrich_NeuralMachineTranslationOfRare.html">
+     “Neural Machine Translation of Rare Words with Subword Units”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2015_RupeshKumarSrivastava_HighwayNetworks.html">
+     “Highway Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2015_SergeyIoffe_BatchNormalizationAccelerating.html">
+     “Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2015_VolodymyrMnih_HumanLevelControlThroughDeepRe.html">
+     “Human-level control through deep reinforcement learning”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2016_AaronVanDenOord_WavenetAGenerativeModelForRawA.html">
+     “WaveNet: A Generative Model for Raw Audio”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2016_ChiyuanZhang_UnderstandingDeepLearningRequi.html">
+     “Understanding deep learning requires rethinking generalization”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2016_TianqiChen_XgboostAScalableTreeBoostingSy.html">
+     “XGBoost: A Scalable Tree Boosting System”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2016_TsungYiLin_FeaturePyramidNetworksForObjec.html">
+     “Feature Pyramid Networks for Object Detection”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2016_VictorChernozhukov_DoubleDebiasedMachineLearningF.html">
+     “Double/Debiased Machine Learning for Treatment and Causal Parameters”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2016_YonghuiWu_GoogleSNeuralMachineTranslatio.html">
+     “Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2016__HyperbandANovelBanditBasedAppr.html">
+     “Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2017_AmazonRuofengWen_AMultiHorizonQuantileRecurrent.html">
+     “A Multi-Horizon Quantile Recurrent Forecaster”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2017_AndrewGHoward_MobilenetsEfficientConvolution.html">
+     “MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2017_AshishVaswani_AttentionIsAllYouNeed.html">
+     “Attention Is All You Need”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2017_BolinGao_OnThePropertiesOfTheSoftmaxFun.html">
+     “On the Properties of the Softmax Function with Application in Game Theory and Reinforcement Learning”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2017_ChuanGuo_OnCalibrationOfModernNeuralNet.html">
+     “On Calibration of Modern Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2017_KaimingHe_MaskRCnn.html">
+     “Mask R-CNN”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2017_KazuyukiHara_AnalysisOfDropoutLearningRegar.html">
+     “Analysis of dropout learning regarded as ensemble learning”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2017_StephanMandt_StochasticGradientDescentAsApp.html">
+     “Stochastic Gradient Descent as Approximate Bayesian Inference”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2017_XunHuang_ArbitraryStyleTransferInRealTi.html">
+     “Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2017_ZhouhanLin_AStructuredSelfAttentiveSenten.html">
+     “A Structured Self-attentive Sentence Embedding”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2018_ArthurJacot_NeuralTangentKernelConvergence.html">
+     “Neural Tangent Kernel: Convergence and Generalization in Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2018_DmitryUlyanov_DeepImagePrior.html">
+     “Deep Image Prior”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2018_JacobDevlin_BertPreTrainingOfDeepBidirecti.html">
+     “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2018_JonathanFrankle_TheLotteryTicketHypothesisFind.html">
+     “The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2018_LelandMcinnes_UmapUniformManifoldApproximati.html">
+     “UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2018_XiangLi_UnderstandingTheDisharmonyBetw.html">
+     “Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2019_MingxingTan_EfficientnetRethinkingModelSca.html">
+     “EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2019_PreetumNakkiran_DeepDoubleDescentWhereBiggerMo.html">
+     “Deep Double Descent: Where Bigger Models and More Data Hurt”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2020_AndrewGelman_BayesianWorkflow.html">
+     “Bayesian workflow”
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     “Denoising Diffusion Probabilistic Models”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2020_TomBBrown_LanguageModelsAreFewShotLearne.html">
+     “Language Models are Few-Shot Learners”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2021_JohnJumper_HighlyAccurateProteinStructure.html">
+     “Highly accurate protein structure prediction with AlphaFold”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2021_YehudaDar_AFarewellToTheBiasVarianceTrad.html">
+     “A Farewell to the Bias-Variance Tradeoff? An Overview of the Theory of Overparameterized Machine Learning”
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        <a class="dropdown-buttons"
+            href="../_sources/stubs/2020_JonathanHo_DenoisingDiffusionProbabilisti.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/stubs/2020_JonathanHo_DenoisingDiffusionProbabilisti.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/dmarx/Anthology of Modern Machine Learning"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/dmarx/Anthology of Modern Machine Learning/issues/new?title=Issue%20on%20page%20%2Fstubs/2020_JonathanHo_DenoisingDiffusionProbabilisti.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/dmarx/Anthology of Modern Machine Learning/main?urlpath=tree/docs/stubs/2020_JonathanHo_DenoisingDiffusionProbabilisti.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="denoising-diffusion-probabilistic-models">
+<h1>“Denoising Diffusion Probabilistic Models”<a class="headerlink" href="#denoising-diffusion-probabilistic-models" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://hojonathanho.github.io/diffusion/assets/denoising_diffusion20.pdf">https://hojonathanho.github.io/diffusion/assets/denoising_diffusion20.pdf</a></p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./stubs"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="2020_AndrewGelman_BayesianWorkflow.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">“Bayesian workflow”</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="2020_TomBBrown_LanguageModelsAreFewShotLearne.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">“Language Models are Few-Shot Learners”</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By David Marx<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
