@@ -237,6 +237,12 @@ if __name__ == '__main__':
     for entry in parser.entries:
         if 'subheadings' not in entry:
             continue
-        for item in entry['subheadings'].values():
-            stub = Stub(item)
-            stub.write(stub_path)
+        for subheading, items in entry['subheadings'].items():
+            logger.debug(f'subheading: {subheading}')
+            for item in items:
+                logger.debug(f'item:\n {item}')
+                stub = Stub(item)
+                try:
+                    stub.write(stub_path)
+                except Exception as e:
+                    logger.warning(e)
