@@ -351,6 +351,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 1989 - ["Multilayer Feedforward Networks are Universal Approximators"](https://cognitivemedium.com/magic_paper/assets/Hornik.pdf) -  Hornik, Kurt; Tinchcombe, Maxwell; White, Halbert
   * 1991 - ["Approximation capabilities of multilayer feedforward networks"](https://web.njit.edu/~usman/courses/cs677_spring21/hornik-nn-1991.pdf) -  Kurt Hornik
   * 1993 - ["Multilayer Feedforward Networks With a Nonpolynomial Activation Function Can Approximate Any Function"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.145.6041&rep=rep1&type=pdf) - Moshe Leshno, Lin Vladimir Ya, Allan Pinkus, Shimon Schocken
+* Dropout as approximate bayesian inference
+  * 2015 - ["Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning"](https://arxiv.org/pdf/1506.02142.pdf) - Yarin Gal, Zoubin Ghahramani
   
 # Information theory
 
