@@ -192,7 +192,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Policy gradient
 * proximal policy optimization (PPO)
 
-# Hyperparameter tuning
+# Hyperparameter tuning / Architecture Search
 
 * random search > grid search
   * 2012 - ["Random Search for Hyper-Parameter Optimization"](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a) - James Bergstra, Yoshua Bengio
@@ -201,6 +201,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Population based training
 * bandit/hyperband
   * 2016 - ["Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization"](https://arxiv.org/pdf/1603.06560.pdf) - 
+* Architecture search using hypernetwork proxy
+  * 2017 - ["SMASH: One-Shot Model Architecture Search through HyperNetworks"](https://arxiv.org/abs/1708.05344) - Andrew Brock, Theodore Lim, J.M. Ritchie, Nick Weston
 
 # Specific architectures/achievements, and other misc milestones
 
