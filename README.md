@@ -159,6 +159,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * convolutions (+ pooling)
 * depthwise-seperable convolutions (mobilenet?)
 * dilated convolutions (Wavenet)
+* squeeze-and-excitation block
+  * 2017 - ["Squeeze-and-Excitation Networks"](https://arxiv.org/abs/1709.01507) - Jie Hu, Li Shen, Samuel Albanie, Gang Sun, Enhua Wu 
 * LSTM
   * 1997 - ["LONG SHORT-TERM MEMORY"](https://www.bioinf.jku.at/publications/older/2604.pdf) - Sepp Hochreiter, Jurgen Schmidhuber
 * Residual connections - Resnets + highway networks
