@@ -204,6 +204,10 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Architecture search using hypernetwork proxy
   * 2017 - ["SMASH: One-Shot Model Architecture Search through HyperNetworks"](https://arxiv.org/abs/1708.05344) - Andrew Brock, Theodore Lim, J.M. Ritchie, Nick Weston
 
+# Implicit Representation
+
+* 2018 - ["Occupancy Networks: Learning 3D Reconstruction in Function Space"](https://arxiv.org/abs/1812.03828) - Lars Mescheder, Michael Oechsle, Michael Niemeyer, Sebastian Nowozin, Andreas Geiger
+
 # Specific architectures/achievements, and other misc milestones
 
 * LeNet
