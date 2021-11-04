@@ -412,3 +412,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * gerrymandering and algorithmic redistricting
 * Facebook's influence on elections and live-testing to influence people's emotions and behaviors w/o consent
 
+# Analytic Process
+
+* ML Tech Debt
+  * 2015 - ["Hidden Technical Debt in Machine Learning Systems"](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf) - D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary, Michael Young, Jean-Franc¸ois Crespo, Dan Dennison
