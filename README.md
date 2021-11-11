@@ -291,9 +291,10 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Generative Diffusion models
   * 2015 - ["Deep Unsupervised Learning using Nonequilibrium Thermodynamics"](https://arxiv.org/abs/1503.03585) - Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli
   * 2020 - ["Denoising Diffusion Probabilistic Models"](https://hojonathanho.github.io/diffusion/assets/denoising_diffusion20.pdf) - Jonathan Ho, Ajay Jain, Pieter Abbeel
-* VQVAE
+* VQVAE/VQGAN
   * 2017 - ["Neural Discrete Representation Learning"](https://arxiv.org/pdf/1711.00937.pdf) - Aaron van den Oord, Oriol Vinyals, Koray Kavukcuoglu
   * 2019 - ["Generating Diverse High-Fidelity Images with VQ-VAE-2"](https://arxiv.org/pdf/1906.00446.pdf) - Ali Razavi, Aaron van den Oord, Oriol Vinyals
+  * 2020 - ["Taming Transformers for High-Resolution Image Synthesis"](https://arxiv.org/abs/2012.09841) - Patrick Esser, Robin Rombach, Björn Ommer
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
