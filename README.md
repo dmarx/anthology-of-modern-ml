@@ -292,7 +292,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2015 - ["Deep Unsupervised Learning using Nonequilibrium Thermodynamics"](https://arxiv.org/abs/1503.03585) - Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli
   * 2020 - ["Denoising Diffusion Probabilistic Models"](https://hojonathanho.github.io/diffusion/assets/denoising_diffusion20.pdf) - Jonathan Ho, Ajay Jain, Pieter Abbeel
 * VQVAE
-  * 2017 - ["Neural Discrete Representation Learning"](https://arxiv.org/pdf/1711.00937.pdf) Aaron van den Oord, Oriol Vinyals, Koray Kavukcuoglu
+  * 2017 - ["Neural Discrete Representation Learning"](https://arxiv.org/pdf/1711.00937.pdf) - Aaron van den Oord, Oriol Vinyals, Koray Kavukcuoglu
+  * 2019 - ["Generating Diverse High-Fidelity Images with VQ-VAE-2"](https://arxiv.org/pdf/1906.00446.pdf) - Ali Razavi, Aaron van den Oord, Oriol Vinyals
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
@@ -368,7 +369,6 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 1993 - ["Multilayer Feedforward Networks With a Nonpolynomial Activation Function Can Approximate Any Function"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.145.6041&rep=rep1&type=pdf) - Moshe Leshno, Lin Vladimir Ya, Allan Pinkus, Shimon Schocken
 * Dropout as approximate bayesian inference
   * 2015 - ["Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning"](https://arxiv.org/pdf/1506.02142.pdf) - Yarin Gal, Zoubin Ghahramani
-* 
   
 # Information theory
 
