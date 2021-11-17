@@ -147,6 +147,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * ReLU
   * 2011 - ["Deep Sparse Rectifier Neural Networks"](http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf) - Xavier Glorot,  Antoine Bordes, Yoshua Bengio
   * See also AlexNet
+* Gumbel quantization
+  * 2016 - ["Categorical Reparameterization with Gumbel-Softmax"](https://arxiv.org/abs/1611.01144v5) - Eric Jang, Shixiang Gu, Ben Poole
 
 # Neural initializations
 
