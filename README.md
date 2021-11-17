@@ -370,6 +370,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 1993 - ["Multilayer Feedforward Networks With a Nonpolynomial Activation Function Can Approximate Any Function"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.145.6041&rep=rep1&type=pdf) - Moshe Leshno, Lin Vladimir Ya, Allan Pinkus, Shimon Schocken
 * Dropout as approximate bayesian inference
   * 2015 - ["Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning"](https://arxiv.org/pdf/1506.02142.pdf) - Yarin Gal, Zoubin Ghahramani
+* CMA-ES learns an approximation to the hessian of the loss
+  * 2019 - ["On the covariance-Hessian relation in evolution strategies"](https://www.sciencedirect.com/science/article/abs/pii/S0304397519305468) - Ofer M. Shir, Amir Yehudayoff
   
 # Information theory
 
