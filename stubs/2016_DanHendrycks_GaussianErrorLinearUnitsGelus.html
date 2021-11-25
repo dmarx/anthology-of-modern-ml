@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CART) “Classification and Regression Trees” - in lieu of the book, here’s a [topic summary from 2011 &#8212; Anthology of Modern Machine Learning</title>
+    <title>“Gaussian Error Linear Units (GELUs)” &#8212; Anthology of Modern Machine Learning</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,8 +51,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="“A Theory of the Learnable”" href="1984_LGValiant_ATheoryOfTheLearnable.html" />
-    <link rel="prev" title="“Self-Organized Formation of Topologically Correct Feature Maps”" href="1982_TeuvoKohonen_SelfOrganizedFormationOfTopolo.html" />
+    <link rel="next" title="“Categorical Reparameterization with Gumbel-Softmax”" href="2016_EricJang_CategoricalReparameterizationW.html" />
+    <link rel="prev" title="“Understanding deep learning requires rethinking generalization”" href="2016_ChiyuanZhang_UnderstandingDeepLearningRequi.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -152,8 +152,8 @@
      “Self-Organized Formation of Topologically Correct Feature Maps”
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="1984_BreimanL_CartClassificationAndRegressio.html">
      CART) “Classification and Regression Trees” - in lieu of the book, here’s a [topic summary from 2011
     </a>
    </li>
@@ -587,8 +587,8 @@
      “Understanding deep learning requires rethinking generalization”
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="2016_DanHendrycks_GaussianErrorLinearUnitsGelus.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      “Gaussian Error Linear Units (GELUs)”
     </a>
    </li>
@@ -824,11 +824,11 @@
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
         <a class="dropdown-buttons"
-            href="../_sources/stubs/1984_BreimanL_CartClassificationAndRegressio.ipynb"><button type="button"
+            href="../_sources/stubs/2016_DanHendrycks_GaussianErrorLinearUnitsGelus.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/stubs/1984_BreimanL_CartClassificationAndRegressio.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/stubs/2016_DanHendrycks_GaussianErrorLinearUnitsGelus.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -848,7 +848,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/dmarx/Anthology of Modern Machine Learning/issues/new?title=Issue%20on%20page%20%2Fstubs/1984_BreimanL_CartClassificationAndRegressio.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/dmarx/Anthology of Modern Machine Learning/issues/new?title=Issue%20on%20page%20%2Fstubs/2016_DanHendrycks_GaussianErrorLinearUnitsGelus.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -869,7 +869,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/dmarx/Anthology of Modern Machine Learning/main?urlpath=tree/docs/stubs/1984_BreimanL_CartClassificationAndRegressio.md"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/dmarx/Anthology of Modern Machine Learning/main?urlpath=tree/docs/stubs/2016_DanHendrycks_GaussianErrorLinearUnitsGelus.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../_static/images/logo_binder.svg"
@@ -894,9 +894,9 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="cart-classification-and-regression-trees-in-lieu-of-the-book-here-s-a-topic-summary-from-2011">
-<h1>CART) “Classification and Regression Trees” - in lieu of the book, here’s a [topic summary from 2011<a class="headerlink" href="#cart-classification-and-regression-trees-in-lieu-of-the-book-here-s-a-topic-summary-from-2011" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="http://pages.stat.wisc.edu/~loh/treeprogs/guide/wires11.pdf">http://pages.stat.wisc.edu/~loh/treeprogs/guide/wires11.pdf</a></p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="gaussian-error-linear-units-gelus">
+<h1>“Gaussian Error Linear Units (GELUs)”<a class="headerlink" href="#gaussian-error-linear-units-gelus" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://arxiv.org/pdf/1606.08415v4.pdf">https://arxiv.org/pdf/1606.08415v4.pdf</a></p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -924,17 +924,17 @@
         
             <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="1982_TeuvoKohonen_SelfOrganizedFormationOfTopolo.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="2016_ChiyuanZhang_UnderstandingDeepLearningRequi.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">“Self-Organized Formation of Topologically Correct Feature Maps”</p>
+            <p class="prev-next-title">“Understanding deep learning requires rethinking generalization”</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="1984_LGValiant_ATheoryOfTheLearnable.html" title="next page">
+    <a class='right-next' id="next-link" href="2016_EricJang_CategoricalReparameterizationW.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">“A Theory of the Learnable”</p>
+        <p class="prev-next-title">“Categorical Reparameterization with Gumbel-Softmax”</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
