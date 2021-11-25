@@ -147,6 +147,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * ReLU
   * 2011 - ["Deep Sparse Rectifier Neural Networks"](http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf) - Xavier Glorot,  Antoine Bordes, Yoshua Bengio
   * See also AlexNet
+* GELU
+  * 2016 - ["Gaussian Error Linear Units (GELUs)"](https://arxiv.org/pdf/1606.08415v4.pdf) -  Dan Hendrycks, Kevin Gimpel 
 * Gumbel quantization
   * 2016 - ["Categorical Reparameterization with Gumbel-Softmax"](https://arxiv.org/abs/1611.01144v5) - Eric Jang, Shixiang Gu, Ben Poole
 
