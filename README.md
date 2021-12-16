@@ -376,6 +376,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2015 - ["Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning"](https://arxiv.org/pdf/1506.02142.pdf) - Yarin Gal, Zoubin Ghahramani
 * CMA-ES learns an approximation to the hessian of the loss
   * 2019 - ["On the covariance-Hessian relation in evolution strategies"](https://www.sciencedirect.com/science/article/abs/pii/S0304397519305468) - Ofer M. Shir, Amir Yehudayoff
+* Inductive Biases
+  * 1980 - ["The need for biases in learning generalizations"](http://www.cs.cmu.edu/~tom/pubs/NeedForBias_1980.pdf) - Tom Mitchell
+  * 2018 - ["Relational inductive biases, deep learning, and graph networks"](https://arxiv.org/pdf/1806.01261.pdf) - Peter W. Battaglia, Jessica B. Hamrick, Victor Bapst, Alvaro Sanchez-Gonzalez, Vinicius Zambaldi, Mateusz Malinowski, Andrea Tacchetti, David Raposo, Adam Santoro, Ryan Faulkner, Caglar Gulcehre, Francis Song, Andrew Ballard, Justin Gilmer, George Dahl, Ashish Vaswani, Kelsey Allen, Charles Nash, Victoria Langston, Chris Dyer, Nicolas Heess, Daan Wierstra, Pushmeet Kohli, Matt Botvinick, Oriol Vinyals, Yujia Li, Razvan Pascanu
   
 # Information theory
 
