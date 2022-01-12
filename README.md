@@ -379,6 +379,10 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Inductive Biases
   * 1980 - ["The need for biases in learning generalizations"](http://www.cs.cmu.edu/~tom/pubs/NeedForBias_1980.pdf) - Tom Mitchell
   * 2018 - ["Relational inductive biases, deep learning, and graph networks"](https://arxiv.org/pdf/1806.01261.pdf) - Peter W. Battaglia, Jessica B. Hamrick, Victor Bapst, Alvaro Sanchez-Gonzalez, Vinicius Zambaldi, Mateusz Malinowski, Andrea Tacchetti, David Raposo, Adam Santoro, Ryan Faulkner, Caglar Gulcehre, Francis Song, Andrew Ballard, Justin Gilmer, George Dahl, Ashish Vaswani, Kelsey Allen, Charles Nash, Victoria Langston, Chris Dyer, Nicolas Heess, Daan Wierstra, Pushmeet Kohli, Matt Botvinick, Oriol Vinyals, Yujia Li, Razvan Pascanu
+
+* Neural Networks are essentially high dimensional decision trees. The latent space can be datum-specific. The learned manifold is not smooth, but heavily faceted. each neuron (relu) adds a hyperplane.
+  * 2018 - [A Spline Theory of Deep Networks](https://proceedings.mlr.press/v80/balestriero18b/balestriero18b.pdf) - Randall Balestriero 1 Richard G. Baraniuk 1
+
   
 # Information theory
 
