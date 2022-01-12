@@ -41,7 +41,7 @@
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -51,7 +51,7 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="“Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift”" href="2018_XiangLi_UnderstandingTheDisharmonyBetw.html" />
+    <link rel="next" title="A Spline Theory of Deep Networks" href="2018_RandallBalestrieroRichardGBaraniuk_ASplineTheoryOfDeepNetworks.html" />
     <link rel="prev" title="“UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction”" href="2018_LelandMcinnes_UmapUniformManifoldApproximati.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -728,6 +728,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="2018_RandallBalestrieroRichardGBaraniuk_ASplineTheoryOfDeepNetworks.html">
+     A Spline Theory of Deep Networks
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="2018_XiangLi_UnderstandingTheDisharmonyBetw.html">
      “Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift”
     </a>
@@ -792,6 +797,11 @@
      “A Farewell to the Bias-Variance Tradeoff? An Overview of the Theory of Overparameterized Machine Learning”
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2110_RandallBalestriero_LearningInHighDimensionAlwaysA.html">
+     “Learning in High Dimension Always Amounts to Extrapolation”
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -843,7 +853,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -894,14 +904,24 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
         </div>
     </div>
 </div>
     <div id="main-content" class="row">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>“Relational inductive biases, deep learning, and graph networks”</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            
               <div>
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="relational-inductive-biases-deep-learning-and-graph-networks">
@@ -931,8 +951,8 @@
 
               </div>
               
-        
-            <!-- Previous / next buttons -->
+            
+                <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
     <a class='left-prev' id="prev-link" href="2018_LelandMcinnes_UmapUniformManifoldApproximati.html" title="previous page">
         <i class="fas fa-angle-left"></i>
@@ -941,27 +961,25 @@
             <p class="prev-next-title">“UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction”</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="2018_XiangLi_UnderstandingTheDisharmonyBetw.html" title="next page">
+    <a class='right-next' id="next-link" href="2018_RandallBalestrieroRichardGBaraniuk_ASplineTheoryOfDeepNetworks.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">“Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift”</p>
+        <p class="prev-next-title">A Spline Theory of Deep Networks</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-        
+            
         </div>
     </div>
     <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By David Marx<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+  <p>
+    
+      By David Marx<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 
