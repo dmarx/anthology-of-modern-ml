@@ -381,8 +381,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2018 - ["Relational inductive biases, deep learning, and graph networks"](https://arxiv.org/pdf/1806.01261.pdf) - Peter W. Battaglia, Jessica B. Hamrick, Victor Bapst, Alvaro Sanchez-Gonzalez, Vinicius Zambaldi, Mateusz Malinowski, Andrea Tacchetti, David Raposo, Adam Santoro, Ryan Faulkner, Caglar Gulcehre, Francis Song, Andrew Ballard, Justin Gilmer, George Dahl, Ashish Vaswani, Kelsey Allen, Charles Nash, Victoria Langston, Chris Dyer, Nicolas Heess, Daan Wierstra, Pushmeet Kohli, Matt Botvinick, Oriol Vinyals, Yujia Li, Razvan Pascanu
 
 * Neural Networks are essentially high dimensional decision trees. The latent space can be datum-specific. The learned manifold is not smooth, but heavily faceted. each neuron (relu) adds a hyperplane.
-  * 2018 - [A Spline Theory of Deep Networks](https://proceedings.mlr.press/v80/balestriero18b/balestriero18b.pdf) - Randall Balestriero 1 Richard G. Baraniuk 1
-
+  * 2018 - [A Spline Theory of Deep Networks](https://proceedings.mlr.press/v80/balestriero18b/balestriero18b.pdf) - Randall Balestriero Richard G. Baraniuk
+* Extrapolation
+  * 2110 -["Learning in High Dimension Always Amounts to Extrapolation"](https://arxiv.org/pdf/2110.09485.pdf) - Randall Balestriero, J´erˆome Pesenti, and Yann LeCun
   
 # Information theory
 
