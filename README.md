@@ -112,6 +112,12 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * label propagation
   * 2002 - ["Learning From Labeled and Unlabeled Data With Label Propagation"](http://mlg.eng.cam.ac.uk/zoubin/papers/CMU-CALD-02-107.pdf) - Xiaojin Zhu, Zoubin Ghahramani
 
+# Geometric Deep Learning and ML applications of group theory/representation theory
+
+* Foundational Books
+  * 2008 - [Group theoretical methods in machine learning (thesis)](https://people.cs.uchicago.edu/~risi/papers/KondorThesis.pdf) - Risi Kondor
+  * 2021 - [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/abs/2104.13478) - Michael M. Bronstein, Joan Bruna, Taco Cohen, Petar Veličković
+
 # Misc optimization and numerical methods
 
 * Expectation maximization
