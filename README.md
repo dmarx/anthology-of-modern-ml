@@ -421,6 +421,11 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2017 - ["A Multi-Horizon Quantile Recurrent Forecaster"](https://arxiv.org/pdf/1711.11053.pdf) - (Amazon) Ruofeng Wen, Kari Torkkola, Balakrishnan Narayanaswamy, Dhruv Madeka
 * FB Prophet / bayesian
 
+# Misc Generative Art milestones and techniques
+
+* Utilizing optical flow to stabilize synthesized video frames
+  * 2016 - ["Artistic style transfer for videos"](https://arxiv.org/pdf/1604.08610.pdf) - Manuel Ruder, Alexey Dosovitskiy, Thomas Brox
+
 # Ethics in ML
 
 * Data Privacy
