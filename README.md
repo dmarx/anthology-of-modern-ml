@@ -445,3 +445,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 * ML Tech Debt
   * 2015 - ["Hidden Technical Debt in Machine Learning Systems"](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf) - D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary, Michael Young, Jean-Franc¸ois Crespo, Dan Dennison
+
+# Misc important papers for generative models/art
+
+* Classifier-free Guidance (CFG)
+  * 2021 - [Classifier-Free Diffusion Guidance](https://openreview.net/forum?id=qw8AKxfYbI) - Jonathan Ho, Tim Salimans
