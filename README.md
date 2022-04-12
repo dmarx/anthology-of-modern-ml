@@ -225,10 +225,45 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 # Specific architectures/achievements, and other misc milestones
 
+## Computer Vision / representation learning
+
+* Video Segmentation
+  * 2018 - ["Tracking Emerges by Colorizing Videos"](https://arxiv.org/abs/1806.09594) - Carl Vondrick, Abhinav Shrivastava, Alireza Fathi, Sergio Guadarrama, Kevin Murphy
+
 * LeNet
   * 1998 - ["GradientBased Learning Applied to Document Recognition"](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf) - Yann LeCun, Leon Bottou, Yoshua Bengio, Patrick Haffner
 * alexnet - Demonstrated importance of network depth (specifically stacking convolutions), and ReLU capability over the then conventional sigmoid and tanh activations
   * 2012 - (using ImageNet leaderboard date; article published 2017) - ["ImageNet Classification with Deep Convolutional Neural Networks"](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) - Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton
+* GAN, DCGAN, WGAN
+* StyleGAN -> StyleGANv2 -> StyleGAN2-ADA
+* U-net
+* VGG
+  * 2014 - ["Very Deep Convolutional Networks for Large-Scale Image Recognition"](https://arxiv.org/abs/1409.1556) - Karen Simonyan, Andrew Zisserman
+* inception/DeepDream
+  * 2015 - ["Inceptionism: Going Deeper into Neural Networks"](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html) - Alexander Mordvintsev, Christopher Olah, Mike Tyka
+* style transfer, content-texture decomposition, weight covariance transfer
+* cyclegan/discogan
+* YOLO
+* EfficientNet - Scaling laws for conv-resnets
+  * 2019 - ["EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks"](http://proceedings.mlr.press/v97/tan19a/tan19a.pdf) - Mingxing Tan, Quoc V. Le
+* FPN - Feature Pyramid Networks
+  * 2016 - ["Feature Pyramid Networks for Object Detection"](https://arxiv.org/pdf/1612.03144.pdf) - Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, Serge Belongie
+* Mask R-CNN
+  * 2017 - ["Mask R-CNN"](https://arxiv.org/pdf/1703.06870.pdf) - Kaiming He, Georgia Gkioxari, Piotr Dollár, Ross Girshick
+* Mobilenet
+  * 2017 - ["MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"](https://arxiv.org/pdf/1704.04861.pdf) - Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, Hartwig Adam
+  * 2018 ["MobileNetV2: Inverted Residuals and Linear Bottlenecks"](https://arxiv.org/abs/1801.04381) - Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen
+* Generative Diffusion models
+  * 2015 - ["Deep Unsupervised Learning using Nonequilibrium Thermodynamics"](https://arxiv.org/abs/1503.03585) - Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli
+  * 2020 - ["Denoising Diffusion Probabilistic Models"](https://hojonathanho.github.io/diffusion/assets/denoising_diffusion20.pdf) - Jonathan Ho, Ajay Jain, Pieter Abbeel
+* VQVAE/VQGAN
+  * 2017 - ["Neural Discrete Representation Learning"](https://arxiv.org/pdf/1711.00937.pdf) - Aaron van den Oord, Oriol Vinyals, Koray Kavukcuoglu
+  * 2019 - ["Generating Diverse High-Fidelity Images with VQ-VAE-2"](https://arxiv.org/pdf/1906.00446.pdf) - Ali Razavi, Aaron van den Oord, Oriol Vinyals
+  * 2020 - ["Taming Transformers for High-Resolution Image Synthesis"](https://arxiv.org/abs/2012.09841) - Patrick Esser, Robin Rombach, Björn Ommer
+
+
+## NLP
+
 * BERT
   * 2018 - ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"](https://arxiv.org/abs/1810.04805v2) - Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
 * RNN-LM
@@ -236,40 +271,41 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2014 - ["Generating Sequences With Recurrent Neural Networks"](https://arxiv.org/pdf/1308.0850.pdf) - Alex Graves
 * word2vec
   * 2013 - ["Distributed Representations of Words and Phrases and their Compositionality"](https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) - Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, Jeffrey Dean
-* U-net
-* siamese network
-  * 2015 - ["Siamese Neural Networks for One-Shot Image Recognition"](http://www.cs.utoronto.ca/~gkoch/files/msc-thesis.pdf) - Gregory Koch
-* student-teacher transfer learning, catastrophic forgetting
-  * see also knowledge distillation below
-* GAN, DCGAN, WGAN
-* StyleGAN -> StyleGANv2 -> StyleGAN2-ADA
-* Neural ODE
-* Neural PDE
-* VGG
-  * 2014 - ["Very Deep Convolutional Networks for Large-Scale Image Recognition"](https://arxiv.org/abs/1409.1556) - Karen Simonyan, Andrew Zisserman
 * GLoVe
 * GLUE task
-* inception/DeepDream
-  * 2015 - ["Inceptionism: Going Deeper into Neural Networks"](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html) - Alexander Mordvintsev, Christopher Olah, Mike Tyka
-* style transfer, content-texture decomposition, weight covariance transfer
-* cyclegan/discogan
+* fasttext
+* wordpiece tokenization / BPE
+  * 2015 - ["Neural Machine Translation of Rare Words with Subword Units"](https://arxiv.org/abs/1508.07909) - Rico Sennrich, Barry Haddow, Alexandra Birch
+  * 2016 - ["Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation"](https://arxiv.org/abs/1609.08144v2) - Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, Łukasz Kaiser, Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Greg Corrado, Macduff Hughes, Jeffrey Dean
+* Large Language Models
+  * ULM
+  * GPT-2 / GPT-3
+    * 2020 - ["Language Models are Few-Shot Learners"](https://arxiv.org/abs/2005.14165) - Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
+
+
+## Representation Learning
+
 * autoencoders
   * 1991 - ["Nonlinear principal component analysis using autoassociative neural networks"](https://www.researchgate.net/profile/Abir_Alobaid/post/To_learn_a_probability_density_function_by_using_neural_network_can_we_first_estimate_density_using_nonparametric_methods_then_train_the_network/attachment/59d6450279197b80779a031e/AS:451263696510979@1484601057779/download/NL+PCA+by+using+ANN.pdf) - Mark A. Kramer
   * 2006 - ["Reducing the Dimensionality of Data with Neural Networks"](https://www.cs.toronto.edu/~hinton/science.pdf) - Geoff Hinton, R. R. Salakhutdinov
 * VAE (w inference amortization)
   * 2013 - ["Auto-Encoding Variational Bayes"](https://arxiv.org/abs/1312.6114) - Diederik P Kingma, Max Welling
-* YOLO
-* GPT-2
-* ULM
+
+* siamese network
+  * 2015 - ["Siamese Neural Networks for One-Shot Image Recognition"](http://www.cs.utoronto.ca/~gkoch/files/msc-thesis.pdf) - Gregory Koch
+* student-teacher transfer learning, catastrophic forgetting
+  * see also knowledge distillation below
+
+
+## Misc
+
+* Neural ODE
+* Neural PDE
+
+
 * seq2seq
   * 2014 - ["Sequence to Sequence Learning with Neural Networks"](https://arxiv.org/abs/1409.3215) - Ilya Sutskever, Oriol Vinyals, Quoc V. Le
 * pix2pix
-* fasttext
-* wordpiece tokenization / BPE
-  * 2015 - ["Neural Machine Translation of Rare Words with Subword Units"](https://arxiv.org/abs/1508.07909) - Rico Sennrich, Barry Haddow, Alexandra Birch
-  * 2016 - ["Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation"](https://arxiv.org/abs/1609.08144v2) - Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, Łukasz Kaiser, Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Greg Corrado, Macduff Hughes, Jeffrey Dean
-* GPT-3
-  * 2020 - ["Language Models are Few-Shot Learners"](https://arxiv.org/abs/2005.14165) - Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
 * BNN
   * 1995 - ["Bayesian Methods for Neural Networks"](https://www.microsoft.com/en-us/research/wp-content/uploads/1995/01/NCRG_95_009.pdf) - Christopher Bishop 
 * The Netflix Prize
@@ -289,22 +325,6 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2021 - ["Highly accurate protein structure prediction with AlphaFold"](https://www.nature.com/articles/s41586-021-03819-2) - John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin Žídek, Anna Potapenko, Alex Bridgland, Clemens Meyer, Simon A. A. Kohl, Andrew J. Ballard, Andrew Cowie, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Demis Hassabis
 * AlphaGo
 * IBM Watson on Jeopardy
-* EfficientNet - Scaling laws for conv-resnets
-  * 2019 - ["EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks"](http://proceedings.mlr.press/v97/tan19a/tan19a.pdf) - Mingxing Tan, Quoc V. Le
-* FPN - Feature Pyramid Networks
-  * 2016 - ["Feature Pyramid Networks for Object Detection"](https://arxiv.org/pdf/1612.03144.pdf) - Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, Serge Belongie
-* Mask R-CNN
-  * 2017 - ["Mask R-CNN"](https://arxiv.org/pdf/1703.06870.pdf) - Kaiming He, Georgia Gkioxari, Piotr Dollár, Ross Girshick
-* Mobilenet
-  * 2017 - ["MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"](https://arxiv.org/pdf/1704.04861.pdf) - Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, Hartwig Adam
-  * 2018 ["MobileNetV2: Inverted Residuals and Linear Bottlenecks"](https://arxiv.org/abs/1801.04381) - Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen
-* Generative Diffusion models
-  * 2015 - ["Deep Unsupervised Learning using Nonequilibrium Thermodynamics"](https://arxiv.org/abs/1503.03585) - Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli
-  * 2020 - ["Denoising Diffusion Probabilistic Models"](https://hojonathanho.github.io/diffusion/assets/denoising_diffusion20.pdf) - Jonathan Ho, Ajay Jain, Pieter Abbeel
-* VQVAE/VQGAN
-  * 2017 - ["Neural Discrete Representation Learning"](https://arxiv.org/pdf/1711.00937.pdf) - Aaron van den Oord, Oriol Vinyals, Koray Kavukcuoglu
-  * 2019 - ["Generating Diverse High-Fidelity Images with VQ-VAE-2"](https://arxiv.org/pdf/1906.00446.pdf) - Ali Razavi, Aaron van den Oord, Oriol Vinyals
-  * 2020 - ["Taming Transformers for High-Resolution Image Synthesis"](https://arxiv.org/abs/2012.09841) - Patrick Esser, Robin Rombach, Björn Ommer
 
 # Learning theory / Deep learning theory / model compression / interpretability
 
