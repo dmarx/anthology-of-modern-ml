@@ -411,6 +411,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Extrapolation
   * 2110 -["Learning in High Dimension Always Amounts to Extrapolation"](https://arxiv.org/pdf/2110.09485.pdf) - Randall Balestriero, J´erˆome Pesenti, and Yann LeCun
   
+* Formalizing "intelligence"
+  * 2019 - ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547) - François Chollet
+  
 # Information theory
 
 * Entropy
