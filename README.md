@@ -333,6 +333,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 1989 - ["Learnability and the Vapnik-Chervonenkis Dimension "](https://www.trhvidsten.com/docs/classics/Blumer-1989.pdf) - Blumer, A.; Ehrenfeucht, A.; Haussler, D.; Warmuth, M. K. 
 * gradient double descent
   * 2019 - ["Deep Double Descent: Where Bigger Models and More Data Hurt"](https://arxiv.org/abs/1912.02292) - Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, Ilya Sutskever
+  * 2019 - ["Reconciling modern machine-learning practice and the classical bias–variance trade-off"](https://www.pnas.org/doi/10.1073/pnas.1903070116) - Mikhail Belkin, Daniel Hsu, Siyuan Ma, and Soumik Mandal
+  * 2020 - ["The generalization error of random features regression: Precise asymptotics and double descent curve](https://arxiv.org/abs/1908.05355) - Song Mei, Andrea Montanari
   * 2021 -["A Farewell to the Bias-Variance Tradeoff? An Overview of the Theory of Overparameterized Machine Learning"](https://arxiv.org/pdf/2109.02355.pdf) - Yehuda Dar, Vidya Muthukumar, Richard G. Baraniuk
 * neural tangent kernel
   * 2018 - ["Neural Tangent Kernel: Convergence and Generalization in Neural Networks"](https://arxiv.org/abs/1806.07572) - Arthur Jacot, Franck Gabriel, Clément Hongler
