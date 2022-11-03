@@ -125,6 +125,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * L-BFGS
 * simulated annealing
 * FFT
+  * 1965 - [An Algorithm for the Machine Calculation of Complex Fourier Series](https://www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/S0025-5718-1965-0178586-1.pdf) - James Cooley, John Tukey
 * Constraint Programming / queing theory / OR
   * Uh... here there be dragons. Maybe just leave some breadcrumbs here?
 
