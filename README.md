@@ -476,3 +476,14 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 * Classifier-free Guidance (CFG)
   * 2021 - [Classifier-Free Diffusion Guidance](https://openreview.net/forum?id=qw8AKxfYbI) - Jonathan Ho, Tim Salimans
+* VQGAN
+* SDEdit
+* Stable Diffusion
+* Cold Diffusion
+* Karras Diffusion Design Space
+* NeRF
+* NeRF + Triplanes
+* Cross Attention guidance
+* Controlnet/T2I adaptors
+
+# LLM Stuff
