@@ -441,6 +441,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2021 - ["LoRA: Low-Rank Adaptation of Large Language Models"](https://arxiv.org/abs/2106.09685) - Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen
 * Fourier features
 
+* NoPe - positional encodings not needed, learned implicitly
+  * 2023 ["The Impact of Positional Encoding on Length Generalization in Transformers"](https://arxiv.org/abs/2305.19466) - Amirhossein Kazemnejad, Inkit Padhi, Karthikeyan Natesan Ramamurthy, Payel Das, Siva Reddy
 
 # Information theory
 
