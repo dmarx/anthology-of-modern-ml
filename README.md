@@ -422,7 +422,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Formalizing "intelligence"
   * 2019 - ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547) - François Chollet
 
-* LoRA
+* PEFT: LoRA
+  * 2021 - ["LoRA: Low-Rank Adaptation of Large Language Models"](https://arxiv.org/abs/2106.09685) - Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen
 * Fourier features
 
 
@@ -492,6 +493,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Karras Diffusion Design Space
 * Cross Attention guidance
 * Controlnet/T2I adaptors
+* Text inversion
+* null text inversion
+
 
 # LLMs, in-context learning, prompt engineering
 * Chain of thought
