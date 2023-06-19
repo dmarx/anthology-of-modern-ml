@@ -300,6 +300,10 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * student-teacher transfer learning, catastrophic forgetting
   * see also knowledge distillation below
 
+* InfoNCE, contrastive learning
+  * 2018 - ["Representation Learning with Contrastive Predictive Coding"](https://arxiv.org/abs/1807.03748) - Aaron van den Oord, Yazhe Li, Oriol Vinyals
+
+
 * DINO
 * CLIP
 
