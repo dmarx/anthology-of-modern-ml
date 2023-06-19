@@ -224,6 +224,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Neural Radiance Fields (NeRF)
   * 2020 - [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) - Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng
 
+* NeRF + Triplanes
+* TensoRT
+
 # Specific architectures/achievements, and other misc milestones
 
 ## Computer Vision / representation learning
@@ -297,6 +300,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * student-teacher transfer learning, catastrophic forgetting
   * see also knowledge distillation below
 
+* DINO
+* CLIP
 
 ## Misc
 
@@ -416,7 +421,11 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   
 * Formalizing "intelligence"
   * 2019 - ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547) - François Chollet
-  
+
+* LoRA
+* Fourier features
+
+
 # Information theory
 
 * Entropy
@@ -481,12 +490,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * LDM/Stable Diffusion
 * Cold Diffusion
 * Karras Diffusion Design Space
-* NeRF
-* NeRF + Triplanes
-* TensoRT
 * Cross Attention guidance
 * Controlnet/T2I adaptors
-* LoRA
 
 # LLMs, in-context learning, prompt engineering
 * Chain of thought
