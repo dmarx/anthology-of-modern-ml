@@ -332,7 +332,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * AlphaGo
 * IBM Watson on Jeopardy
 
-# Learning theory / Deep learning theory / model compression / interpretability
+# Learning theory / Deep learning theory / model compression / interpretability / Information Geometry
 
 * VC Dimension
   * 1971 - ["On the uniform convergence of relative frequencies of events to their probabilities"](https://courses.engr.illinois.edu/ece544na/fa2014/vapnik71.pdf) - V. Vapnik and A. Chervonenkis
@@ -342,10 +342,12 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2019 - ["Reconciling modern machine-learning practice and the classical bias–variance trade-off"](https://www.pnas.org/doi/10.1073/pnas.1903070116) - Mikhail Belkin, Daniel Hsu, Siyuan Ma, and Soumik Mandal
   * 2020 - ["The generalization error of random features regression: Precise asymptotics and double descent curve](https://arxiv.org/abs/1908.05355) - Song Mei, Andrea Montanari
   * 2021 -["A Farewell to the Bias-Variance Tradeoff? An Overview of the Theory of Overparameterized Machine Learning"](https://arxiv.org/pdf/2109.02355.pdf) - Yehuda Dar, Vidya Muthukumar, Richard G. Baraniuk
+
 * neural tangent kernel
   * 2018 - ["Neural Tangent Kernel: Convergence and Generalization in Neural Networks"](https://arxiv.org/abs/1806.07572) - Arthur Jacot, Franck Gabriel, Clément Hongler
 * lottery ticket hypothesis
   * 2018 - ["The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"](https://arxiv.org/abs/1803.03635) - Jonathan Frankle, Michael Carbin
+
 * manifold hypothesis
 * information bottleneck
 * generalized degrees of freedom
@@ -390,26 +392,39 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma
 * Empirical Risk Minimization
   * 1992 - ["Principles of Risk Minimization for Learning Theory"](https://proceedings.neurips.cc/paper/1991/file/ff4d5fbbafdf976cfdc032e3bde78de5-Paper.pdf) - V. Vapnik
-* saddlepoints more problematic than local minima
+
+* Loss geometry
   * 2014 - ["Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"](https://arxiv.org/abs/1406.2572) - Yann Dauphin, Razvan Pascanu, Caglar Gulcehre, Kyunghyun Cho, Surya Ganguli, Yoshua Bengio
-* generalization and overparameterization, effective model capacity
+
+* generalization, overparameterization, effective model capacity, grokking
   * 2016 - ["Understanding deep learning requires rethinking generalization"](https://arxiv.org/pdf/1611.03530.pdf) - Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
+  * 2021 - [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) - Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra
+  * 2022 - [Towards Understanding Grokking: An Effective Theory of Representation Learning](https://arxiv.org/abs/2205.10343) - Ziming Liu, Ouail Kitouni, Niklas Nolte, Eric J. Michaud, Max Tegmark, Mike Williams
+
+
 * Strong inductive bias in CNN structure 
   * 2018 - ["Deep Image Prior"](https://openaccess.thecvf.com/content_cvpr_2018/html/Ulyanov_Deep_Image_Prior_CVPR_2018_paper.html) - Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky
+
 * prediction calibration
   * 2017 - ["On Calibration of Modern Neural Networks"](http://proceedings.mlr.press/v70/guo17a.html) - Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger
+
 * batch-norm and dropout in tug-of-war
   * 2018 - ["Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift"](https://arxiv.org/pdf/1801.05134.pdf) - Xiang Li, Shuo Chen, Xiaolin Hu, Jian Yang
+
 * deep learning model fitting process
   * http://karpathy.github.io/2019/04/25/recipe/  
+
 * Universal approximation theorem
   * 1989 - ["Multilayer Feedforward Networks are Universal Approximators"](https://cognitivemedium.com/magic_paper/assets/Hornik.pdf) -  Hornik, Kurt; Tinchcombe, Maxwell; White, Halbert
   * 1991 - ["Approximation capabilities of multilayer feedforward networks"](https://web.njit.edu/~usman/courses/cs677_spring21/hornik-nn-1991.pdf) -  Kurt Hornik
   * 1993 - ["Multilayer Feedforward Networks With a Nonpolynomial Activation Function Can Approximate Any Function"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.145.6041&rep=rep1&type=pdf) - Moshe Leshno, Lin Vladimir Ya, Allan Pinkus, Shimon Schocken
+
 * Dropout as approximate bayesian inference
   * 2015 - ["Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning"](https://arxiv.org/pdf/1506.02142.pdf) - Yarin Gal, Zoubin Ghahramani
+
 * CMA-ES learns an approximation to the hessian of the loss
   * 2019 - ["On the covariance-Hessian relation in evolution strategies"](https://www.sciencedirect.com/science/article/abs/pii/S0304397519305468) - Ofer M. Shir, Amir Yehudayoff
+
 * Inductive Biases
   * 1980 - ["The need for biases in learning generalizations"](http://www.cs.cmu.edu/~tom/pubs/NeedForBias_1980.pdf) - Tom Mitchell
   * 2018 - ["Relational inductive biases, deep learning, and graph networks"](https://arxiv.org/pdf/1806.01261.pdf) - Peter W. Battaglia, Jessica B. Hamrick, Victor Bapst, Alvaro Sanchez-Gonzalez, Vinicius Zambaldi, Mateusz Malinowski, Andrea Tacchetti, David Raposo, Adam Santoro, Ryan Faulkner, Caglar Gulcehre, Francis Song, Andrew Ballard, Justin Gilmer, George Dahl, Ashish Vaswani, Kelsey Allen, Charles Nash, Victoria Langston, Chris Dyer, Nicolas Heess, Daan Wierstra, Pushmeet Kohli, Matt Botvinick, Oriol Vinyals, Yujia Li, Razvan Pascanu
@@ -425,9 +440,6 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * PEFT: LoRA
   * 2021 - ["LoRA: Low-Rank Adaptation of Large Language Models"](https://arxiv.org/abs/2106.09685) - Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen
 * Fourier features
-* Grokking
-  * 2021 - [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) - Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra
-  * 2022 - [Towards Understanding Grokking: An Effective Theory of Representation Learning](https://arxiv.org/abs/2205.10343) - Ziming Liu, Ouail Kitouni, Niklas Nolte, Eric J. Michaud, Max Tegmark, Mike Williams
 
 
 # Information theory
