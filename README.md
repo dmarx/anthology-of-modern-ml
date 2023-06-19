@@ -425,6 +425,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * PEFT: LoRA
   * 2021 - ["LoRA: Low-Rank Adaptation of Large Language Models"](https://arxiv.org/abs/2106.09685) - Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen
 * Fourier features
+* Grokking
+  * 2021 - [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) - Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra
+  * 2022 - [Towards Understanding Grokking: An Effective Theory of Representation Learning](https://arxiv.org/abs/2205.10343) - Ziming Liu, Ouail Kitouni, Niklas Nolte, Eric J. Michaud, Max Tegmark, Mike Williams
 
 
 # Information theory
