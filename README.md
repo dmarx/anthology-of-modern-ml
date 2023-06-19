@@ -516,3 +516,12 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Chain of thought
 * LLMs as role-play
 * learning to use tools
+
+# Development of attention mechanisms
+
+largely via https://twitter.com/karpathy/status/1668302116576976906
+
+* https://arxiv.org/abs/1308.0850
+* https://arxiv.org/abs/1409.0473
+* https://arxiv.org/abs/1410.5401
+* Attention is all you need
