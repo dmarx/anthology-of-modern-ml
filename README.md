@@ -451,6 +451,10 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * NoPe - positional encodings not needed, learned implicitly
   * 2023 - ["The Impact of Positional Encoding on Length Generalization in Transformers"](https://arxiv.org/abs/2305.19466) - Amirhossein Kazemnejad, Inkit Padhi, Karthikeyan Natesan Ramamurthy, Payel Das, Siva Reddy
 
+* Intrinsic Dimension, PEFT
+  * 2020 - ["Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning"](https://arxiv.org/abs/2012.13255) - Armen Aghajanyan, Luke Zettlemoyer, Sonal Gupta
+
+
 # Information theory
 
 * Entropy
