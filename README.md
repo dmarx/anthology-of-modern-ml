@@ -146,6 +146,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * distributed training
   * 2011 - ["HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent"](https://people.eecs.berkeley.edu/~brecht/papers/hogwildTR.pdf) - Feng Niu, Benjamin Recht, Christopher Re, Stephen J. Wright
 
+* ZeRo Offload, Zero Redundandancy Optimizers
+  * 2019 - ["ZeRO: Memory Optimizations Toward Training Trillion Parameter Models"](https://arxiv.org/abs/1910.02054) - Samyam Rajbhandari, Jeff Rasley, Olatunji Ruwase, Yuxiong He
+
 * federated learning
 
 # Neural activations
