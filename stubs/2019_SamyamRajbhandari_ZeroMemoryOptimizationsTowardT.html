@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>“Model Compression” &#8212; Anthology of Modern Machine Learning</title>
+    <title>“ZeRO: Memory Optimizations Toward Training Trillion Parameter Models” &#8212; Anthology of Modern Machine Learning</title>
   
   
   
@@ -61,11 +61,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'stubs/2005_CristianBucila_ModelCompression';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'stubs/2019_SamyamRajbhandari_ZeroMemoryOptimizationsTowardT';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="“Regularization and variable selection via the elastic net”" href="2005_HuiZou_RegularizationAndVariableSelec.html" />
-    <link rel="prev" title="“Finding community structure in very large networks”" href="2004_AaronClauset_FindingCommunityStructureInVer.html" />
+    <link rel="next" title="“Bayesian workflow”" href="2020_AndrewGelman_BayesianWorkflow.html" />
+    <link rel="prev" title="“Deep Double Descent: Where Bigger Models and More Data Hurt”" href="2019_PreetumNakkiran_DeepDoubleDescentWhereBiggerMo.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -210,7 +210,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="2003_SeppHochreiter_GradientFlowInRecurrentNetsThe.html">“Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2003_WeiXu_DocumentClusteringBasedOnNonNe.html">“Document Clustering Based On Non-negative Matrix Factorization”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2004_AaronClauset_FindingCommunityStructureInVer.html">“Finding community structure in very large networks”</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">“Model Compression”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2005_CristianBucila_ModelCompression.html">“Model Compression”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2005_HuiZou_RegularizationAndVariableSelec.html">“Regularization and variable selection via the elastic net”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2006_ArvindNarayanan_HowToBreakAnonymityOfTheNetfli.html">“How To Break Anonymity of the Netflix Prize Dataset”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2006_GeoffHinton_ReducingTheDimensionalityOfDat.html">“Reducing the Dimensionality of Data with Neural Networks”</a></li>
@@ -297,7 +297,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="2019_MingxingTan_EfficientnetRethinkingModelSca.html">“EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2019_OferMShir_OnTheCovarianceHessianRelation.html">“On the covariance-Hessian relation in evolution strategies”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2019_PreetumNakkiran_DeepDoubleDescentWhereBiggerMo.html">“Deep Double Descent: Where Bigger Models and More Data Hurt”</a></li>
-<li class="toctree-l2"><a class="reference internal" href="2019_SamyamRajbhandari_ZeroMemoryOptimizationsTowardT.html">“ZeRO: Memory Optimizations Toward Training Trillion Parameter Models”</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">“ZeRO: Memory Optimizations Toward Training Trillion Parameter Models”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2020_AndrewGelman_BayesianWorkflow.html">“Bayesian workflow”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2020_BenMildenhall_NerfRepresentingScenesAsNeural.html">NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2020_JonathanHo_DenoisingDiffusionProbabilisti.html">“Denoising Diffusion Probabilistic Models”</a></li>
@@ -387,7 +387,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/dmarx/Anthology of Modern Machine Learning/issues/new?title=Issue%20on%20page%20%2Fstubs/2005_CristianBucila_ModelCompression.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/dmarx/Anthology of Modern Machine Learning/issues/new?title=Issue%20on%20page%20%2Fstubs/2019_SamyamRajbhandari_ZeroMemoryOptimizationsTowardT.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -417,7 +417,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/stubs/2005_CristianBucila_ModelCompression.md" target="_blank"
+      <li><a href="../_sources/stubs/2019_SamyamRajbhandari_ZeroMemoryOptimizationsTowardT.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -497,7 +497,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>“Model Compression”</h1>
+    <h1>“ZeRO: Memory Optimizations Toward Training Trillion Parameter Models”</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -511,9 +511,9 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="model-compression">
-<h1>“Model Compression”<a class="headerlink" href="#model-compression" title="Permalink to this heading">#</a></h1>
-<p><a class="reference external" href="http://www.cs.cornell.edu/~caruana/compression.kdd06.pdf">http://www.cs.cornell.edu/~caruana/compression.kdd06.pdf</a></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="zero-memory-optimizations-toward-training-trillion-parameter-models">
+<h1>“ZeRO: Memory Optimizations Toward Training Trillion Parameter Models”<a class="headerlink" href="#zero-memory-optimizations-toward-training-trillion-parameter-models" title="Permalink to this heading">#</a></h1>
+<p><a class="reference external" href="https://arxiv.org/abs/1910.02054">https://arxiv.org/abs/1910.02054</a></p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -548,20 +548,20 @@ document.write(`
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="2004_AaronClauset_FindingCommunityStructureInVer.html"
+       href="2019_PreetumNakkiran_DeepDoubleDescentWhereBiggerMo.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">“Finding community structure in very large networks”</p>
+        <p class="prev-next-title">“Deep Double Descent: Where Bigger Models and More Data Hurt”</p>
       </div>
     </a>
     <a class="right-next"
-       href="2005_HuiZou_RegularizationAndVariableSelec.html"
+       href="2020_AndrewGelman_BayesianWorkflow.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">“Regularization and variable selection via the elastic net”</p>
+        <p class="prev-next-title">“Bayesian workflow”</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
