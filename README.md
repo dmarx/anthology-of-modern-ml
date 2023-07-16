@@ -529,6 +529,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Chain of thought
 * LLMs as role-play
 * learning to use tools
+* Chinchilla
+  * 2022 - ["Training Compute-Optimal Large Language Models"](https://arxiv.org/abs/2203.15556) - Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, Tom Hennigan, Eric Noland, Katie Millican, George van den Driessche, Bogdan Damoc, Aurelia Guy, Simon Osindero, Karen Simonyan, Erich Elsen, Jack W. Rae, Oriol Vinyals, Laurent Sifre
 
 # Development of attention mechanisms
 
