@@ -247,6 +247,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * VGG
   * 2014 - ["Very Deep Convolutional Networks for Large-Scale Image Recognition"](https://arxiv.org/abs/1409.1556) - Karen Simonyan, Andrew Zisserman
 * inception/DeepDream
+  * 2014 - ["Understanding Deep Image Representations by Inverting Them"](https://arxiv.org/abs/1412.0035) - Aravindh Mahendran, Andrea Vedaldi
   * 2015 - ["Inceptionism: Going Deeper into Neural Networks"](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html) - Alexander Mordvintsev, Christopher Olah, Mike Tyka
 * style transfer, content-texture decomposition, weight covariance transfer
 * cyclegan/discogan
