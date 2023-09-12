@@ -535,6 +535,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Chinchilla
   * 2022 - ["Training Compute-Optimal Large Language Models"](https://arxiv.org/abs/2203.15556) - Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, Tom Hennigan, Eric Noland, Katie Millican, George van den Driessche, Bogdan Damoc, Aurelia Guy, Simon Osindero, Karen Simonyan, Erich Elsen, Jack W. Rae, Oriol Vinyals, Laurent Sifre
 
+* Speculative decoding
+  * 2023 -["Accelerating Large Language Model Decoding with Speculative Sampling"](https://arxiv.org/abs/2302.01318) - Charlie Chen, Sebastian Borgeaud, Geoffrey Irving, Jean-Baptiste Lespiau, Laurent Sifre, John Jumper
+
 # Development of attention mechanisms
 
 largely via https://twitter.com/karpathy/status/1668302116576976906
