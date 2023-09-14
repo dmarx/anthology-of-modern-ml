@@ -283,6 +283,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 * Gaussian Splatting
   * 2023 - ["3D Gaussian Splatting for Real-Time Radiance Field Rendering"](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf)
+ 
+* SAM
+  * 2023 - ["Segment Anything"](https://arxiv.org/abs/2304.02643) - Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura Gustafson, Tete Xiao, Spencer Whitehead, Alexander C. Berg, Wan-Yen Lo, Piotr Dollár, Ross Girshick
 
 ## NLP
 
