@@ -281,6 +281,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * text-to-3d, score distillation sampling, dreamfusion
   *  2022 - ["DreamFusion: Text-to-3D using 2D Diffusion"](https://arxiv.org/abs/2209.14988) - Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall
 
+* Gaussian Splatting
+  * 2023 - ["3D Gaussian Splatting for Real-Time Radiance Field Rendering"](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf)
+
 ## NLP
 
 * BERT
