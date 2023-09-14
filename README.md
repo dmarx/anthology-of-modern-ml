@@ -271,6 +271,8 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2019 - ["Generating Diverse High-Fidelity Images with VQ-VAE-2"](https://arxiv.org/pdf/1906.00446.pdf) - Ali Razavi, Aaron van den Oord, Oriol Vinyals
   * 2020 - ["Taming Transformers for High-Resolution Image Synthesis"](https://arxiv.org/abs/2012.09841) - Patrick Esser, Robin Rombach, Björn Ommer
 
+* Stable Diffusion
+  * 2022 - ["High-Resolution Image Synthesis with Latent Diffusion Models"](https://arxiv.org/abs/2112.10752) - Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer
 
 ## NLP
 
