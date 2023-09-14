@@ -324,6 +324,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 * DINO
   * 2021 - ["Emerging Properties in Self-Supervised Vision Transformers"](https://arxiv.org/abs/2104.14294) - Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, Armand Joulin
+  * 2023 - ["DINOv2: Learning Robust Visual Features without Supervision"](https://arxiv.org/abs/2304.07193) - Maxime Oquab, Timothée Darcet, Théo Moutakanni, Huy Vo, Marc Szafraniec, Vasil Khalidov, Pierre Fernandez, Daniel Haziza, Francisco Massa, Alaaeldin El-Nouby, Mahmoud Assran, Nicolas Ballas, Wojciech Galuba, Russell Howes, Po-Yao Huang, Shang-Wen Li, Ishan Misra, Michael Rabbat, Vasu Sharma, Gabriel Synnaeve, Hu Xu, Hervé Jegou, Julien Mairal, Patrick Labatut, Armand Joulin, Piotr Bojanowski
 * CLIP
   * 2021 - [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) - Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever
 
