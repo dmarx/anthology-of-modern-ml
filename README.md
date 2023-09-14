@@ -531,11 +531,14 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 * Classifier-free Guidance (CFG)
   * 2021 - [Classifier-Free Diffusion Guidance](https://arxiv.org/abs/2207.12598) - Jonathan Ho, Tim Salimans
-* VQGAN
+
 * SDEdit
-* LDM/Stable Diffusion
-* Cold Diffusion
-* Karras Diffusion Design Space
+
+* Denoising diffusion as generic de-corruption
+  * 2022 - ["Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise"](https://arxiv.org/abs/2208.09392) - Arpit Bansal, Eitan Borgnia, Hong-Min Chu, Jie S. Li, Hamid Kazemi, Furong Huang, Micah Goldblum, Jonas Geiping, Tom Goldstein
+* k-samplers, variance-preserving, variance exploding
+  * 2022 - ["Elucidating the Design Space of Diffusion-Based Generative Models"](https://arxiv.org/abs/2206.00364) - Tero Karras, Miika Aittala, Timo Aila, Samuli Laine
+
 * Cross Attention guidance
 * Controlnet/T2I adaptors
 * Text inversion
