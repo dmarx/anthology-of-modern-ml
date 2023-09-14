@@ -517,7 +517,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 # Misc important papers for generative models/art, misc modern era
 
 * Classifier-free Guidance (CFG)
-  * 2021 - [Classifier-Free Diffusion Guidance](https://openreview.net/forum?id=qw8AKxfYbI) - Jonathan Ho, Tim Salimans
+  * 2021 - [Classifier-Free Diffusion Guidance](https://arxiv.org/abs/2207.12598) - Jonathan Ho, Tim Salimans
 * VQGAN
 * SDEdit
 * LDM/Stable Diffusion
