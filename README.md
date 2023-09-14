@@ -317,6 +317,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 
 * DINO
+  * 2021 - ["Emerging Properties in Self-Supervised Vision Transformers"](https://arxiv.org/abs/2104.14294) - Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, Armand Joulin
 * CLIP
   * 2021 - [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) - Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever
 
