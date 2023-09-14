@@ -274,6 +274,10 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Stable Diffusion
   * 2022 - ["High-Resolution Image Synthesis with Latent Diffusion Models"](https://arxiv.org/abs/2112.10752) - Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer
 
+* ViT
+  * 2020 - ["An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"](https://arxiv.org/abs/2010.11929) - Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby
+  * 2022 - ["Better plain ViT baselines for ImageNet-1k"](https://arxiv.org/abs/2205.01580) - Lucas Beyer, Xiaohua Zhai, Alexander Kolesnikov
+
 ## NLP
 
 * BERT
