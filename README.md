@@ -543,9 +543,16 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 
 # LLMs, in-context learning, prompt engineering
+
 * Chain of thought
+  * 2022 - ["Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"](https://arxiv.org/abs/2201.11903) - Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou
+
 * LLMs as role-play
+  * 2023 - ["Role-Play with Large Language Models"](https://arxiv.org/abs/2305.16367) - Murray Shanahan, Kyle McDonell, Laria Reynolds
+  
 * learning to use tools
+  * 2023 - ["Toolformer: Language Models Can Teach Themselves to Use Tools"](https://arxiv.org/abs/2302.04761) - Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom
+    
 * Chinchilla
   * 2022 - ["Training Compute-Optimal Large Language Models"](https://arxiv.org/abs/2203.15556) - Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, Tom Hennigan, Eric Noland, Katie Millican, George van den Driessche, Bogdan Damoc, Aurelia Guy, Simon Osindero, Karen Simonyan, Erich Elsen, Jack W. Rae, Oriol Vinyals, Laurent Sifre
 
