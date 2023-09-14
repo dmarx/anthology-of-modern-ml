@@ -12,4 +12,4 @@ kernelspec:
 
 # Classifier-Free Diffusion Guidance
 
-https://openreview.net/forum?id=qw8AKxfYbI
+https://arxiv.org/abs/2207.12598
