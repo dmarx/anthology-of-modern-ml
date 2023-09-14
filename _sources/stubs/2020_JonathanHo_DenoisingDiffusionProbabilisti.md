@@ -12,4 +12,4 @@ kernelspec:
 
 # "Denoising Diffusion Probabilistic Models"
 
-https://hojonathanho.github.io/diffusion/assets/denoising_diffusion20.pdf
+https://arxiv.org/abs/2006.11239
