@@ -540,6 +540,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2021 - [Classifier-Free Diffusion Guidance](https://arxiv.org/abs/2207.12598) - Jonathan Ho, Tim Salimans
 
 * SDEdit
+  * 2021 - ["SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations"](https://arxiv.org/abs/2108.01073) - Chenlin Meng, Yutong He, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon
 
 * Denoising diffusion as generic de-corruption
   * 2022 - ["Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise"](https://arxiv.org/abs/2208.09392) - Arpit Bansal, Eitan Borgnia, Hong-Min Chu, Jie S. Li, Hamid Kazemi, Furong Huang, Micah Goldblum, Jonas Geiping, Tom Goldstein
