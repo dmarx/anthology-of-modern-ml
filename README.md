@@ -478,6 +478,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Intrinsic Dimension, PEFT
   * 2020 - ["Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning"](https://arxiv.org/abs/2012.13255) - Armen Aghajanyan, Luke Zettlemoyer, Sonal Gupta
 
+* GAN training dynamics, TTUR
+  * 2017 - ["GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium"](https://arxiv.org/abs/1706.08500v6) - Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter
+
 
 # Information theory
 
