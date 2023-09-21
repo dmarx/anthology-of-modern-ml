@@ -381,6 +381,7 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 
 * manifold hypothesis
 * information bottleneck
+  * 2015 - ["Deep Learning and the Information Bottleneck Principle"](https://arxiv.org/abs/1503.02406) - Naftali Tishby, Noga Zaslavsky
 * generalized degrees of freedom
   * 1998 - "On Measuring and Correcting the Effects of Data Mining and Model Selection" - Jianming Ye
 * AIC / BIC
