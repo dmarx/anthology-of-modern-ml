@@ -336,9 +336,10 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2022 - ["Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning"](https://arxiv.org/abs/2203.02053) - Weixin Liang, Yuhui Zhang, Yongchan Kwon, Serena Yeung, James Zou
 
 
-* Johnson-Lindestraus lemma
+* Johnson-Lindenstrauss lemma
   * 1984 - ["Extensions_of_Lipschitz_mappings_into_a_Hilbert_space"](https://www.researchgate.net/publication/301840852) - William B. Johnson, , Joram Lindenstrauss
   * https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma
+  * 2021 - ["An Introduction to Johnson-Lindenstrauss Transforms"](https://arxiv.org/abs/2103.00564) - Casper Benjamin Freksen
 
 ## Misc
 
