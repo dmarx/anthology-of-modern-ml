@@ -335,6 +335,11 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
   * 2021 - [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) - Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever
   * 2022 - ["Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning"](https://arxiv.org/abs/2203.02053) - Weixin Liang, Yuhui Zhang, Yongchan Kwon, Serena Yeung, James Zou
 
+
+* Johnson-Lindestraus lemma
+  * 1984 - ["Extensions_of_Lipschitz_mappings_into_a_Hilbert_space"](https://www.researchgate.net/publication/301840852) - William B. Johnson, , Joram Lindenstrauss
+  * https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma
+
 ## Misc
 
 * Neural ODE
