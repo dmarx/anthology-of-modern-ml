@@ -94,6 +94,9 @@ This multiple-organization idea might be more amenable to a wiki structure, in w
 * Good overview of modeling process
   * 2020 - ["Bayesian workflow"](https://arxiv.org/pdf/2011.01808v1.pdf) - Andrew Gelman, Aki Vehtari, Daniel Simpson, Charles C. Margossian, Bob Carpenter, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian Bürkner, Martin Modrák
 
+* poisson bootstrap
+  * 2012 - [ESTIMATING UNCERTAINTY FOR MASSIVE DATA STREAMS](https://research.google/pubs/pub43157/) - Nicholas Chamandy, Omkar Muralidharan,
+Amir Najmi, Siddartha Naidu 
 
 # Network Graphs / combinatorial optimization
 
