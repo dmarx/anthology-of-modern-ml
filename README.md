@@ -383,6 +383,7 @@ Amir Najmi, Siddartha Naidu
   * 2019 - ["Reconciling modern machine-learning practice and the classical bias–variance trade-off"](https://www.pnas.org/doi/10.1073/pnas.1903070116) - Mikhail Belkin, Daniel Hsu, Siyuan Ma, and Soumik Mandal
   * 2020 - ["The generalization error of random features regression: Precise asymptotics and double descent curve](https://arxiv.org/abs/1908.05355) - Song Mei, Andrea Montanari
   * 2021 -["A Farewell to the Bias-Variance Tradeoff? An Overview of the Theory of Overparameterized Machine Learning"](https://arxiv.org/pdf/2109.02355.pdf) - Yehuda Dar, Vidya Muthukumar, Richard G. Baraniuk
+  * 1999 - ["Generalization in a linear perceptron in the presence of noise"](https://www.researchgate.net/publication/231084158_Generalization_in_a_linear_perceptron_in_the_presence_of_noise) - Anders Krogh, John A Hertz
 
 * neural tangent kernel
   * 2018 - ["Neural Tangent Kernel: Convergence and Generalization in Neural Networks"](https://arxiv.org/abs/1806.07572) - Arthur Jacot, Franck Gabriel, Clément Hongler
