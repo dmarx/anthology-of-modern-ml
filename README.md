@@ -493,6 +493,8 @@ Amir Najmi, Siddartha Naidu
 * GAN training dynamics, TTUR
   * 2017 - ["GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium"](https://arxiv.org/abs/1706.08500v6) - Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter
 
+* The Bitter Lesson
+  * 2019 - ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) - Rich Sutton
 
 # Information theory
 
