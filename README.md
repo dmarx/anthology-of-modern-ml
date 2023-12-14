@@ -1,14 +1,8 @@
 # Anthology of Modern Machine Learning
 
-A curated collection of significant/impactful articles to be treated as a textbook, because sometimes it's just best to go straight to the source. My hope is to provide a reference for understanding important developments in their historical context, so the techniques can be understood in the historical context that motivated them, the problems the authors were attempting to solve, and what particular features of the discovery were considered especially novel or impressive when it was first published.
+A curated collection of significant/impactful articles to be treated as a textbook, because sometimes it's just best to go straight to the source. My hope is to provide a reference for understanding important developments in the historical context that motivated them, e.g. the problems the authors were attempting to solve, what particular features of the discovery were considered especially novel or impressive when it was first published, what the competing theories or techniques at the time were, etc.
 
-I plan to have this organized a couple of ways: 
-
-* broad-brush topics (textbook-ish sections)
-* publication date
-* parent-child research developments (co-citations?)
-
-This multiple-organization idea might be more amenable to a wiki structure, in which case I could even add paper summaries and abridged versions.
+Someday this will be organized better.
 
 # "Classic" ML
 
