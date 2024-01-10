@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>“Bayesian Methods for Neural Networks” &#8212; Anthology of Modern Machine Learning</title>
+    <title>“Stabilizing Transformer Training by Preventing Attention Entropy Collapse” &#8212; Anthology of Modern Machine Learning</title>
   
   
   
@@ -62,11 +62,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'stubs/1995_ChristopherBishop_BayesianMethodsForNeuralNetwor';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'stubs/2023_ShuangfeiZhai_StabilizingTransformerTraining';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="“Regression Shrinkage and Selection via the Lasso”" href="1996_RobertTibshirani_RegressionShrinkageAndSelectio.html" />
-    <link rel="prev" title="“Multilayer Feedforward Networks With a Nonpolynomial Activation Function Can Approximate Any Function”" href="1993_MosheLeshno_MultilayerFeedforwardNetworksW.html" />
+    <link rel="next" title="“Toolformer: Language Models Can Teach Themselves to Use Tools”" href="2023_TimoSchick_ToolformerLanguageModelsCanTea.html" />
+    <link rel="prev" title="“Role-Play with Large Language Models”" href="2023_MurrayShanahan_RolePlayWithLargeLanguageModel.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -203,7 +203,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="1992_BernhardEBoser_ATrainingAlgorithmForOptimalMa.html">A Training Algorithm for Optimal Margin Classifier</a></li>
 <li class="toctree-l2"><a class="reference internal" href="1992_VVapnik_PrinciplesOfRiskMinimizationFo.html">“Principles of Risk Minimization for Learning Theory”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="1993_MosheLeshno_MultilayerFeedforwardNetworksW.html">“Multilayer Feedforward Networks With a Nonpolynomial Activation Function Can Approximate Any Function”</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">“Bayesian Methods for Neural Networks”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="1995_ChristopherBishop_BayesianMethodsForNeuralNetwor.html">“Bayesian Methods for Neural Networks”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="1996_RobertTibshirani_RegressionShrinkageAndSelectio.html">“Regression Shrinkage and Selection via the Lasso”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="1997_DavidHWolpert_NoFreeLunchTheoremsForOptimiza.html">“No Free Lunch Theorems for Optimization”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="1997_MikeSchuster_BidirectionalRecurrentNeuralNe.html">“Bidirectional Recurrent Neural Networks”</a></li>
@@ -355,7 +355,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="2023_CharlieChen_AcceleratingLargeLanguageModel.html">“Accelerating Large Language Model Decoding with Speculative Sampling”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2023_MaximeOquab_Dinov2LearningRobustVisualFeat.html">“DINOv2: Learning Robust Visual Features without Supervision”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2023_MurrayShanahan_RolePlayWithLargeLanguageModel.html">“Role-Play with Large Language Models”</a></li>
-<li class="toctree-l2"><a class="reference internal" href="2023_ShuangfeiZhai_StabilizingTransformerTraining.html">“Stabilizing Transformer Training by Preventing Attention Entropy Collapse”</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">“Stabilizing Transformer Training by Preventing Attention Entropy Collapse”</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2023_TimoSchick_ToolformerLanguageModelsCanTea.html">“Toolformer: Language Models Can Teach Themselves to Use Tools”</a></li>
 </ul>
 </li>
@@ -430,7 +430,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/dmarx/Anthology of Modern Machine Learning/issues/new?title=Issue%20on%20page%20%2Fstubs/1995_ChristopherBishop_BayesianMethodsForNeuralNetwor.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/dmarx/Anthology of Modern Machine Learning/issues/new?title=Issue%20on%20page%20%2Fstubs/2023_ShuangfeiZhai_StabilizingTransformerTraining.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -460,7 +460,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/stubs/1995_ChristopherBishop_BayesianMethodsForNeuralNetwor.md" target="_blank"
+      <li><a href="../_sources/stubs/2023_ShuangfeiZhai_StabilizingTransformerTraining.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -542,7 +542,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>“Bayesian Methods for Neural Networks”</h1>
+    <h1>“Stabilizing Transformer Training by Preventing Attention Entropy Collapse”</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -556,9 +556,9 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="bayesian-methods-for-neural-networks">
-<h1>“Bayesian Methods for Neural Networks”<a class="headerlink" href="#bayesian-methods-for-neural-networks" title="Permalink to this heading">#</a></h1>
-<p><a class="reference external" href="https://www.microsoft.com/en-us/research/wp-content/uploads/1995/01/NCRG_95_009.pdf">https://www.microsoft.com/en-us/research/wp-content/uploads/1995/01/NCRG_95_009.pdf</a></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="stabilizing-transformer-training-by-preventing-attention-entropy-collapse">
+<h1>“Stabilizing Transformer Training by Preventing Attention Entropy Collapse”<a class="headerlink" href="#stabilizing-transformer-training-by-preventing-attention-entropy-collapse" title="Permalink to this heading">#</a></h1>
+<p><a class="reference external" href="https://arxiv.org/abs/2303.06296">https://arxiv.org/abs/2303.06296</a></p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -592,20 +592,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="1993_MosheLeshno_MultilayerFeedforwardNetworksW.html"
+       href="2023_MurrayShanahan_RolePlayWithLargeLanguageModel.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">“Multilayer Feedforward Networks With a Nonpolynomial Activation Function Can Approximate Any Function”</p>
+        <p class="prev-next-title">“Role-Play with Large Language Models”</p>
       </div>
     </a>
     <a class="right-next"
-       href="1996_RobertTibshirani_RegressionShrinkageAndSelectio.html"
+       href="2023_TimoSchick_ToolformerLanguageModelsCanTea.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">“Regression Shrinkage and Selection via the Lasso”</p>
+        <p class="prev-next-title">“Toolformer: Language Models Can Teach Themselves to Use Tools”</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
