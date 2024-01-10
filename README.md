@@ -491,6 +491,9 @@ Amir Najmi, Siddartha Naidu
 * The Bitter Lesson
   * 2019 - ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) - Rich Sutton
 
+* sigma reparameterization to stabilize transformer training by mitigating "entropy collapse" (concentration of density in attention)
+  * 2023 - ["Stabilizing Transformer Training by Preventing Attention Entropy Collapse"](https://arxiv.org/abs/2303.06296) - Shuangfei Zhai, Tatiana Likhomanenko, Etai Littwin, Dan Busbridge, Jason Ramapuram, Yizhe Zhang, Jiatao Gu, Josh Susskind
+
 # Information theory
 
 * Entropy
