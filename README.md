@@ -92,6 +92,9 @@ Someday this will be organized better.
   * 2012 - [ESTIMATING UNCERTAINTY FOR MASSIVE DATA STREAMS](https://research.google/pubs/pub43157/) - Nicholas Chamandy, Omkar Muralidharan,
 Amir Najmi, Siddartha Naidu 
 
+* constrained optimization / Linear Programming
+  * 1947 - Simplex Algorithm (?) - George Dantzig
+
 # Network Graphs / combinatorial optimization
 
 * Graph anomaly detection (enron)
