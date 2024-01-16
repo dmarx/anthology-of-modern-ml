@@ -104,6 +104,7 @@ Amir Najmi, Siddartha Naidu
 * smallworld
 * scale free
 * "Networks of Love"
+  * 2004 - [Chains of Affection: The Structure of Adolescent Romantic and Sexual Networks](https://people.duke.edu/~jmoody77/chains.pdf) - Peter S. Bearman, James Moody, Katherine Stovel
 * Genetic algorithms
 * force-directed/spring layout (fruchterman-reingold I think?)
 * label propagation
