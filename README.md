@@ -98,6 +98,7 @@ Amir Najmi, Siddartha Naidu
 # Network Graphs / combinatorial optimization
 
 * Graph anomaly detection (enron)
+  * 2005 - ["Scan Statistics On Enron Graphs"](https://www.researchgate.net/publication/220556790_Scan_Statistics_on_Enron_Graphs) - Carey E. Priebe, John M. Conroy, David J. Marchette, Youngser Park
 * Exponential random graphs
 * modularity / louvain community detection
   * 2004 - ["Finding community structure in very large networks"](https://arxiv.org/abs/cond-mat/0408187) - Aaron Clauset, M. E. J. Newman, Cristopher Moore
