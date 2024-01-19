@@ -208,6 +208,8 @@ Amir Najmi, Siddartha Naidu
 * proximal policy optimization (PPO)
   * https://openai.com/research/openai-baselines-ppo
   * 2017 - ["Proximal Policy Optimization Algorithms"](https://arxiv.org/abs/1707.06347) - John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov
+* direct preference optimization (DPO)
+  * 2023 - ["Direct Preference Optimization: Your Language Model is Secretly a Reward Model"](https://arxiv.org/abs/2305.18290) - Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning, Chelsea Finn
 
 # Hyperparameter tuning / Architecture Search
 
