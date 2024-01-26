@@ -504,6 +504,11 @@ Amir Najmi, Siddartha Naidu
 * sigma reparameterization to stabilize transformer training by mitigating "entropy collapse" (concentration of density in attention)
   * 2023 - ["Stabilizing Transformer Training by Preventing Attention Entropy Collapse"](https://arxiv.org/abs/2303.06296) - Shuangfei Zhai, Tatiana Likhomanenko, Etai Littwin, Dan Busbridge, Jason Ramapuram, Yizhe Zhang, Jiatao Gu, Josh Susskind
 
+* buffer tokens
+  * 2023 - ["Vision Transformers Need Registers"](https://arxiv.org/abs/2309.16588) - Timothée Darcet, Maxime Oquab, Julien Mairal, Piotr Bojanowski
+  * 2023 - some LLM paper
+
+
 # Information theory
 
 * Entropy
