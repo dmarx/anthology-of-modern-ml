@@ -504,9 +504,9 @@ Amir Najmi, Siddartha Naidu
 * sigma reparameterization to stabilize transformer training by mitigating "entropy collapse" (concentration of density in attention)
   * 2023 - ["Stabilizing Transformer Training by Preventing Attention Entropy Collapse"](https://arxiv.org/abs/2303.06296) - Shuangfei Zhai, Tatiana Likhomanenko, Etai Littwin, Dan Busbridge, Jason Ramapuram, Yizhe Zhang, Jiatao Gu, Josh Susskind
 
-* buffer tokens
+* buffer tokens, register tokens, attention sinks
   * 2023 - ["Vision Transformers Need Registers"](https://arxiv.org/abs/2309.16588) - Timothée Darcet, Maxime Oquab, Julien Mairal, Piotr Bojanowski
-  * 2023 - some LLM paper
+  * 2023 - ["Efficient Streaming Language Models with Attention Sinks"](https://arxiv.org/abs/2309.17453) - Guangxuan Xiao, Yuandong Tian, Beidi Chen, Song Han, Mike Lewis
 
 
 # Information theory
