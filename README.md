@@ -95,6 +95,9 @@ Amir Najmi, Siddartha Naidu
 * constrained optimization / Linear Programming
   * 1947 - Simplex Algorithm (?) - George Dantzig
 
+* compressed sensing
+  * 2004 - ["Compressed Sensing"](https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Donoho04.pdf) - David L. Donoho
+
 # Network Graphs / combinatorial optimization
 
 * Graph anomaly detection (enron)
