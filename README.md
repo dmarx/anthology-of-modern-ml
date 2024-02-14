@@ -201,6 +201,8 @@ Amir Najmi, Siddartha Naidu
 
 # RL
 
+Good list here: https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html#citations-below
+
 * multi-armed bandit
 * temporal differences
   * 1988 - ["Learning to predict by the methods of temporal differences"](https://link.springer.com/content/pdf/10.1007/BF00115009.pdf) - Richard S. Sutton
