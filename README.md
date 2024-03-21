@@ -511,6 +511,12 @@ Good list here: https://spinningup.openai.com/en/latest/spinningup/rl_intro2.htm
   * 2023 - ["Vision Transformers Need Registers"](https://arxiv.org/abs/2309.16588) - Timothée Darcet, Maxime Oquab, Julien Mairal, Piotr Bojanowski
   * 2023 - ["Efficient Streaming Language Models with Attention Sinks"](https://arxiv.org/abs/2309.17453) - Guangxuan Xiao, Yuandong Tian, Beidi Chen, Song Han, Mike Lewis
 
+## Surprisingly Relevant Group Theory
+
+* Connecting the Variational Renormalization Group and Unsupervised Learning
+  * 2014 - ["An exact mapping between the Variational Renormalization Group and Deep Learning"](https://arxiv.org/abs/1410.3831) - Pankaj Mehta, David J. Schwab
+* learning a feature is equivalent to searching for a transformation that stabilizes it.
+  * 2015 - ["Why does Deep Learning work? - A perspective from Group Theory"](https://arxiv.org/abs/1412.6621) - Arnab Paul, Suresh Venkatasubramanian
 
 # Information theory
 
