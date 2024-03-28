@@ -156,6 +156,9 @@ Amir Najmi, Siddartha Naidu
 
 * federated learning
 
+* K-FAC
+  * 2015 - ["Optimizing Neural Networks with Kronecker-factored Approximate Curvature"](https://arxiv.org/abs/1503.05671) - James Martens, Roger Grosse
+
 # Neural activations
 
 * sigmoid
