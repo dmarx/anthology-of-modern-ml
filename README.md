@@ -383,6 +383,9 @@ Good list here: https://spinningup.openai.com/en/latest/spinningup/rl_intro2.htm
   * 2021 - ["Highly accurate protein structure prediction with AlphaFold"](https://www.nature.com/articles/s41586-021-03819-2) - John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin Žídek, Anna Potapenko, Alex Bridgland, Clemens Meyer, Simon A. A. Kohl, Andrew J. Ballard, Andrew Cowie, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Demis Hassabis
 * AlphaGo
 * IBM Watson on Jeopardy
+* Understanding the GPU compute paradigm
+  * 2022 - ["Making Deep Learning Go Brr From First Principles"](https://horace.io/brrr_intro.html) - Horace He
+
 
 # Learning theory / Deep learning theory / model compression / interpretability / Information Geometry
 
