@@ -529,6 +529,7 @@ Good list here: https://spinningup.openai.com/en/latest/spinningup/rl_intro2.htm
 # Information theory
 
 * Entropy
+  * 1948 - ["A Mathematical Theory of Communication"](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf) - Claude Shannon
 * Fisher information
 * KL divergence
 
