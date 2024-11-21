@@ -138,6 +138,7 @@ Amir Najmi, Siddartha Naidu
 
 * perceptron algorithm
 * SGD / backprop
+  * 1951 - ["A Stochastic Approximation Method"](https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.pdf) - H. Robbins and S. Monro. 
   * 1986 - ["Learning representations by back-propagating errors"](http://www.cs.utoronto.ca/~hinton/absps/naturebp.pdf) - David Rumelhart, Geoffrey Hinton, Ronald Williams
   * 1998 - ["Efficient Backprop"](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf) -  Yann LeCun, Leon Bottou, Genevieve B. Orr and Klaus-Robert Müller
 * Adagrad / RMSProp
