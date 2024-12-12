@@ -42,6 +42,8 @@ Someday this will be organized better.
   * https://cseweb.ucsd.edu/~dasgupta/papers/randomf.pdf
   * See also Johnson-Lindenstrauss lemma
 * MCMC - metropolis-hastings, HMC, reversible jump, NUTS
+  * Hamiltonian Monte Carlo (HMC)
+    * 1987 - ["Hybrid Monte Carlo"](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) - Simon Duane, A.D. Kennedy, Brian Pendleton, Duncan Roweth
 * SMOTE
   * 2002 - ["Smote: synthetic minority over-sampling technique"](https://www.jair.org/index.php/jair/article/view/10302/24590) - Nitesh V Chawla, Kevin W Bowyer, Lawrence O Hall, W Philip Kegelmeyer
 * tSNE
