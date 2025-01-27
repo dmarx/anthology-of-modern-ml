@@ -460,6 +460,7 @@ Good list here: https://spinningup.openai.com/en/latest/spinningup/rl_intro2.htm
 
 * generalization, overparameterization, effective model capacity, grokking
   * 2016 - ["Understanding deep learning requires rethinking generalization"](https://arxiv.org/pdf/1611.03530.pdf) - Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
+  * 1997 - ["Computational Power of Neural Networks: A Characterization in Terms of Kolmogorov Complexity"](https://people.cs.umass.edu/~binds/papers/1997_Balcazar_IEEETransInfoTheory.pdf) - José L. Balcázar, Ricard Gavaldà, Hava T. Siegelmann
   * 2021 - [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) - Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra
   * 2022 - [Towards Understanding Grokking: An Effective Theory of Representation Learning](https://arxiv.org/abs/2205.10343) - Ziming Liu, Ouail Kitouni, Niklas Nolte, Eric J. Michaud, Max Tegmark, Mike Williams
 
