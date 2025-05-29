@@ -1,5 +1,8 @@
-* 2025-05-28 - I haven't been updating this as diligently as I used to. Here's what I'm currently reading -- sort by the first column to see papers that I've revisited, and the second to see papers I've invested time on. 
-  * https://dmarx.github.io/papers-feed/
+`2025-05-28` - I haven't been updating this as diligently as I used to. [Here's what I'm currently reading](https://dmarx.github.io/papers-feed/) -- sort by the first column to see papers that I've revisited, and the second to see papers I've invested time on. 
+
+### https://dmarx.github.io/papers-feed/
+
+---
 
 # Anthology of Modern Machine Learning
 
