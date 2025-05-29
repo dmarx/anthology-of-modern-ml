@@ -1,3 +1,6 @@
+* 2025-05-28 - I haven't been updating this as diligently as I used to. Here's what I'm currently reading -- sort by the first column to see papers that I've revisited, and the second to see papers I've invested time on. 
+  * https://dmarx.github.io/papers-feed/
+
 # Anthology of Modern Machine Learning
 
 A curated collection of significant/impactful articles to be treated as a textbook, because sometimes it's just best to go straight to the source. My hope is to provide a reference for understanding important developments in the historical context that motivated them, e.g. the problems the authors were attempting to solve, what particular features of the discovery were considered especially novel or impressive when it was first published, what the competing theories or techniques at the time were, etc.
