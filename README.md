@@ -12,6 +12,9 @@ Someday this will be organized better.
 
 # "Classic" ML
 
+* Signal Processing Interpretation of Harmonic Analysis
+  * 1946 - ["Theory of Communication"](https://jcsphysics.net/lit/gabor1946.pdf) - Dennis Gabor
+
 * Lasso/elasticnet
   * 1996 - ["Regression Shrinkage and Selection via the Lasso"](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf) - Robert Tibshirani
   * 2005 - ["Regularization and variable selection via the elastic net"](https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf) - Hui Zou, Trevor Hastie
