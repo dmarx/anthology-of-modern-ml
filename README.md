@@ -420,6 +420,7 @@ Good list here: https://spinningup.openai.com/en/latest/spinningup/rl_intro2.htm
 
 * manifold hypothesis
 * information bottleneck
+  * 2000 - ["The information bottleneck method"](https://arxiv.org/abs/physics/0004057v1)  - Naftali Tishby, Fernando C. Pereira, William Bialek
   * 2015 - ["Deep Learning and the Information Bottleneck Principle"](https://arxiv.org/abs/1503.02406) - Naftali Tishby, Noga Zaslavsky
 * generalized degrees of freedom
   * 1998 - "On Measuring and Correcting the Effects of Data Mining and Model Selection" - Jianming Ye
