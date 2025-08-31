@@ -341,6 +341,7 @@ Good list here: https://spinningup.openai.com/en/latest/spinningup/rl_intro2.htm
 
 * autoencoders
   * 1991 - ["Nonlinear principal component analysis using autoassociative neural networks"](https://www.researchgate.net/profile/Abir_Alobaid/post/To_learn_a_probability_density_function_by_using_neural_network_can_we_first_estimate_density_using_nonparametric_methods_then_train_the_network/attachment/59d6450279197b80779a031e/AS:451263696510979@1484601057779/download/NL+PCA+by+using+ANN.pdf) - Mark A. Kramer
+  * 2004 - ["Mutual Information and Minimum Mean-square Error in Gaussian Channels"](https://arxiv.org/pdf/cs/0412108) - Dongning Guo, Shlomo Shamai (Shitz), Sergio Verdu
   * 2006 - ["Reducing the Dimensionality of Data with Neural Networks"](https://www.cs.toronto.edu/~hinton/science.pdf) - Geoff Hinton, R. R. Salakhutdinov
 * VAE (w inference amortization)
   * 2013 - ["Auto-Encoding Variational Bayes"](https://arxiv.org/abs/1312.6114) - Diederik P Kingma, Max Welling
